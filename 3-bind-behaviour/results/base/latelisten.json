@@ -1,0 +1,14 @@
+{
+ "set": "latelisten",
+ "sequences": 2370816,
+ "quads": null,
+ "seed": null,
+ "kernel": "7.4.0-rc1-virtme",
+ "seconds": 623.5,
+ "result_codes": {
+  "-": 6043053,
+  "L": 1988028,
+  "o": 9426285,
+  "u": 1509162
+ }
+}

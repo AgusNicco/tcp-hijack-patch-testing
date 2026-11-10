@@ -1,0 +1,8502 @@
+{
+ "kernel": "7.4.0-rc1-virtme",
+ "seconds": 946,
+ "attacker_on_the_port_first": false,
+ "victims": 183,
+ "trials": 9085670,
+ "positives": 0,
+ "per_victim": [
+  {
+   "victim": 0,
+   "trials": 28140,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 88,
+     "pairs": 22880,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 1,
+   "trials": 28140,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 88,
+     "pairs": 22880,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 2,
+   "trials": 28140,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 88,
+     "pairs": 22880,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 3,
+   "trials": 28140,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 88,
+     "pairs": 22880,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 4,
+   "trials": 47900,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 164,
+     "pairs": 42640,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 5,
+   "trials": 47900,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 164,
+     "pairs": 42640,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 6,
+   "trials": 47900,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 164,
+     "pairs": 42640,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 7,
+   "trials": 47900,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 164,
+     "pairs": 42640,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 8,
+   "trials": 47900,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 164,
+     "pairs": 42640,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 9,
+   "trials": 47900,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 164,
+     "pairs": 42640,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 10,
+   "trials": 47900,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 164,
+     "pairs": 42640,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 11,
+   "trials": 47900,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 164,
+     "pairs": 42640,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 12,
+   "trials": 42700,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 144,
+     "pairs": 37440,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 13,
+   "trials": 42700,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 144,
+     "pairs": 37440,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 14,
+   "trials": 42700,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 144,
+     "pairs": 37440,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 15,
+   "trials": 42700,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 144,
+     "pairs": 37440,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 16,
+   "trials": 54140,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 188,
+     "pairs": 48880,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 17,
+   "trials": 54140,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 188,
+     "pairs": 48880,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 18,
+   "trials": 54140,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 188,
+     "pairs": 48880,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 19,
+   "trials": 54140,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 188,
+     "pairs": 48880,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 20,
+   "trials": 54140,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 188,
+     "pairs": 48880,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 21,
+   "trials": 54140,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 188,
+     "pairs": 48880,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 22,
+   "trials": 54140,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 188,
+     "pairs": 48880,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 23,
+   "trials": 54140,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 188,
+     "pairs": 48880,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 24,
+   "trials": 42700,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 144,
+     "pairs": 37440,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 25,
+   "trials": 42700,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 144,
+     "pairs": 37440,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 26,
+   "trials": 42700,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 144,
+     "pairs": 37440,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 27,
+   "trials": 42700,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 144,
+     "pairs": 37440,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 28,
+   "trials": 54140,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 188,
+     "pairs": 48880,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 29,
+   "trials": 54140,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 188,
+     "pairs": 48880,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 30,
+   "trials": 54140,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 188,
+     "pairs": 48880,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 31,
+   "trials": 54140,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 188,
+     "pairs": 48880,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 32,
+   "trials": 54140,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 188,
+     "pairs": 48880,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 33,
+   "trials": 54140,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 188,
+     "pairs": 48880,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 34,
+   "trials": 54140,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 188,
+     "pairs": 48880,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 35,
+   "trials": 54140,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 188,
+     "pairs": 48880,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 36,
+   "trials": 260,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 37,
+   "trials": 260,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 38,
+   "trials": 260,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 39,
+   "trials": 260,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 40,
+   "trials": 34380,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 112,
+     "pairs": 29120,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 41,
+   "trials": 34380,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 112,
+     "pairs": 29120,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 42,
+   "trials": 34380,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 112,
+     "pairs": 29120,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 43,
+   "trials": 34380,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 112,
+     "pairs": 29120,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 44,
+   "trials": 37500,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 124,
+     "pairs": 32240,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 45,
+   "trials": 37500,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 124,
+     "pairs": 32240,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 46,
+   "trials": 37500,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 124,
+     "pairs": 32240,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 47,
+   "trials": 37500,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 124,
+     "pairs": 32240,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 48,
+   "trials": 47900,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 164,
+     "pairs": 42640,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 49,
+   "trials": 47900,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 164,
+     "pairs": 42640,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 50,
+   "trials": 47900,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 164,
+     "pairs": 42640,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 51,
+   "trials": 47900,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 164,
+     "pairs": 42640,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 52,
+   "trials": 1,
+   "positives": 0,
+   "invalid": "n",
+   "pre": {}
+  },
+  {
+   "victim": 53,
+   "trials": 1,
+   "positives": 0,
+   "invalid": "n",
+   "pre": {}
+  },
+  {
+   "victim": 54,
+   "trials": 1,
+   "positives": 0,
+   "invalid": "n",
+   "pre": {}
+  },
+  {
+   "victim": 55,
+   "trials": 1,
+   "positives": 0,
+   "invalid": "n",
+   "pre": {}
+  },
+  {
+   "victim": 56,
+   "trials": 54140,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 188,
+     "pairs": 48880,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 57,
+   "trials": 54140,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 188,
+     "pairs": 48880,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 58,
+   "trials": 54140,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 188,
+     "pairs": 48880,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 59,
+   "trials": 54140,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 188,
+     "pairs": 48880,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 60,
+   "trials": 43740,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 148,
+     "pairs": 38480,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 61,
+   "trials": 43740,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 148,
+     "pairs": 38480,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 62,
+   "trials": 43740,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 148,
+     "pairs": 38480,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 63,
+   "trials": 43740,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 148,
+     "pairs": 38480,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 64,
+   "trials": 54140,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 188,
+     "pairs": 48880,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 65,
+   "trials": 54140,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 188,
+     "pairs": 48880,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 66,
+   "trials": 54140,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 188,
+     "pairs": 48880,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 67,
+   "trials": 54140,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 188,
+     "pairs": 48880,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 68,
+   "trials": 54140,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 188,
+     "pairs": 48880,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 69,
+   "trials": 54140,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 188,
+     "pairs": 48880,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 70,
+   "trials": 54140,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 188,
+     "pairs": 48880,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 71,
+   "trials": 54140,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 188,
+     "pairs": 48880,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 72,
+   "trials": 42700,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 144,
+     "pairs": 37440,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 73,
+   "trials": 42700,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 144,
+     "pairs": 37440,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 74,
+   "trials": 42700,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 144,
+     "pairs": 37440,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 75,
+   "trials": 42700,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 144,
+     "pairs": 37440,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 76,
+   "trials": 54140,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 188,
+     "pairs": 48880,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 77,
+   "trials": 54140,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 188,
+     "pairs": 48880,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 78,
+   "trials": 54140,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 188,
+     "pairs": 48880,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 79,
+   "trials": 54140,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 188,
+     "pairs": 48880,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 80,
+   "trials": 54140,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 188,
+     "pairs": 48880,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 81,
+   "trials": 54140,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 188,
+     "pairs": 48880,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 82,
+   "trials": 54140,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 188,
+     "pairs": 48880,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 83,
+   "trials": 54140,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 188,
+     "pairs": 48880,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 84,
+   "trials": 34380,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 112,
+     "pairs": 29120,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 85,
+   "trials": 34380,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 112,
+     "pairs": 29120,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 86,
+   "trials": 34380,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 112,
+     "pairs": 29120,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 87,
+   "trials": 34380,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 112,
+     "pairs": 29120,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 88,
+   "trials": 46860,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 160,
+     "pairs": 41600,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 89,
+   "trials": 46860,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 160,
+     "pairs": 41600,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 90,
+   "trials": 46860,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 160,
+     "pairs": 41600,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 91,
+   "trials": 46860,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 160,
+     "pairs": 41600,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 92,
+   "trials": 49980,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 172,
+     "pairs": 44720,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 93,
+   "trials": 49980,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 172,
+     "pairs": 44720,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 94,
+   "trials": 49980,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 172,
+     "pairs": 44720,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 95,
+   "trials": 49980,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 172,
+     "pairs": 44720,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 96,
+   "trials": 47900,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 164,
+     "pairs": 42640,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 97,
+   "trials": 47900,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 164,
+     "pairs": 42640,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 98,
+   "trials": 47900,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 164,
+     "pairs": 42640,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 99,
+   "trials": 47900,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 164,
+     "pairs": 42640,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 100,
+   "trials": 1,
+   "positives": 0,
+   "invalid": "n",
+   "pre": {}
+  },
+  {
+   "victim": 101,
+   "trials": 1,
+   "positives": 0,
+   "invalid": "n",
+   "pre": {}
+  },
+  {
+   "victim": 102,
+   "trials": 1,
+   "positives": 0,
+   "invalid": "n",
+   "pre": {}
+  },
+  {
+   "victim": 103,
+   "trials": 1,
+   "positives": 0,
+   "invalid": "n",
+   "pre": {}
+  },
+  {
+   "victim": 104,
+   "trials": 54140,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 188,
+     "pairs": 48880,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 105,
+   "trials": 54140,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 188,
+     "pairs": 48880,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 106,
+   "trials": 54140,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 188,
+     "pairs": 48880,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 107,
+   "trials": 54140,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 188,
+     "pairs": 48880,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 108,
+   "trials": 43740,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 148,
+     "pairs": 38480,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 109,
+   "trials": 43740,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 148,
+     "pairs": 38480,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 110,
+   "trials": 43740,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 148,
+     "pairs": 38480,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 111,
+   "trials": 43740,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 148,
+     "pairs": 38480,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 112,
+   "trials": 54140,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 188,
+     "pairs": 48880,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 113,
+   "trials": 54140,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 188,
+     "pairs": 48880,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 114,
+   "trials": 54140,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 188,
+     "pairs": 48880,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 115,
+   "trials": 54140,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 188,
+     "pairs": 48880,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 116,
+   "trials": 54140,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 188,
+     "pairs": 48880,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 117,
+   "trials": 54140,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 188,
+     "pairs": 48880,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 118,
+   "trials": 54140,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 188,
+     "pairs": 48880,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 119,
+   "trials": 54140,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 188,
+     "pairs": 48880,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 120,
+   "trials": 53100,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 184,
+     "pairs": 47840,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 121,
+   "trials": 53100,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 184,
+     "pairs": 47840,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 122,
+   "trials": 53100,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 184,
+     "pairs": 47840,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 123,
+   "trials": 53100,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 184,
+     "pairs": 47840,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 124,
+   "trials": 53100,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 184,
+     "pairs": 47840,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 125,
+   "trials": 53100,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 184,
+     "pairs": 47840,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 126,
+   "trials": 53100,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 184,
+     "pairs": 47840,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 127,
+   "trials": 53100,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 184,
+     "pairs": 47840,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 128,
+   "trials": 53100,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 184,
+     "pairs": 47840,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 129,
+   "trials": 53100,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 184,
+     "pairs": 47840,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 130,
+   "trials": 53100,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 184,
+     "pairs": 47840,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 131,
+   "trials": 53100,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 184,
+     "pairs": 47840,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 132,
+   "trials": 49404,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "0": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "1": {
+     "seeds": 28,
+     "pairs": 1820,
+     "triples": 0,
+     "positives": 0
+    },
+    "4": {
+     "seeds": 18,
+     "pairs": 1170,
+     "triples": 0,
+     "positives": 0
+    },
+    "5": {
+     "seeds": 28,
+     "pairs": 1820,
+     "triples": 0,
+     "positives": 0
+    },
+    "20": {
+     "seeds": 14,
+     "pairs": 910,
+     "triples": 0,
+     "positives": 0
+    },
+    "21": {
+     "seeds": 28,
+     "pairs": 1820,
+     "triples": 0,
+     "positives": 0
+    },
+    "24": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "25": {
+     "seeds": 28,
+     "pairs": 1820,
+     "triples": 0,
+     "positives": 0
+    },
+    "40": {
+     "seeds": 18,
+     "pairs": 1170,
+     "triples": 0,
+     "positives": 0
+    },
+    "41": {
+     "seeds": 28,
+     "pairs": 1820,
+     "triples": 0,
+     "positives": 0
+    },
+    "44": {
+     "seeds": 24,
+     "pairs": 1560,
+     "triples": 0,
+     "positives": 0
+    },
+    "45": {
+     "seeds": 28,
+     "pairs": 1820,
+     "triples": 0,
+     "positives": 0
+    },
+    "60": {
+     "seeds": 14,
+     "pairs": 910,
+     "triples": 0,
+     "positives": 0
+    },
+    "61": {
+     "seeds": 28,
+     "pairs": 1820,
+     "triples": 0,
+     "positives": 0
+    },
+    "64": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "65": {
+     "seeds": 28,
+     "pairs": 1820,
+     "triples": 0,
+     "positives": 0
+    },
+    "80": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "81": {
+     "seeds": 22,
+     "pairs": 1430,
+     "triples": 0,
+     "positives": 0
+    },
+    "84": {
+     "seeds": 16,
+     "pairs": 1040,
+     "triples": 0,
+     "positives": 0
+    },
+    "85": {
+     "seeds": 22,
+     "pairs": 1430,
+     "triples": 0,
+     "positives": 0
+    },
+    "120": {
+     "seeds": 13,
+     "pairs": 845,
+     "triples": 0,
+     "positives": 0
+    },
+    "121": {
+     "seeds": 22,
+     "pairs": 1430,
+     "triples": 0,
+     "positives": 0
+    },
+    "124": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "125": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "140": {
+     "seeds": 13,
+     "pairs": 845,
+     "triples": 0,
+     "positives": 0
+    },
+    "141": {
+     "seeds": 22,
+     "pairs": 1430,
+     "triples": 0,
+     "positives": 0
+    },
+    "144": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "145": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "160": {
+     "seeds": 9,
+     "pairs": 585,
+     "triples": 0,
+     "positives": 0
+    },
+    "161": {
+     "seeds": 22,
+     "pairs": 1430,
+     "triples": 0,
+     "positives": 0
+    },
+    "164": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "165": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "180": {
+     "seeds": 9,
+     "pairs": 585,
+     "triples": 0,
+     "positives": 0
+    },
+    "181": {
+     "seeds": 22,
+     "pairs": 1430,
+     "triples": 0,
+     "positives": 0
+    },
+    "184": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "185": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "200": {
+     "seeds": 15,
+     "pairs": 975,
+     "triples": 0,
+     "positives": 0
+    },
+    "201": {
+     "seeds": 22,
+     "pairs": 1430,
+     "triples": 0,
+     "positives": 0
+    },
+    "204": {
+     "seeds": 15,
+     "pairs": 975,
+     "triples": 0,
+     "positives": 0
+    },
+    "205": {
+     "seeds": 22,
+     "pairs": 1430,
+     "triples": 0,
+     "positives": 0
+    },
+    "220": {
+     "seeds": 14,
+     "pairs": 910,
+     "triples": 0,
+     "positives": 0
+    },
+    "221": {
+     "seeds": 28,
+     "pairs": 1820,
+     "triples": 0,
+     "positives": 0
+    },
+    "224": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "225": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "240": {
+     "seeds": 14,
+     "pairs": 910,
+     "triples": 0,
+     "positives": 0
+    },
+    "241": {
+     "seeds": 28,
+     "pairs": 1820,
+     "triples": 0,
+     "positives": 0
+    },
+    "244": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "245": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 133,
+   "trials": 1080,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "124": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "125": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "144": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "145": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "164": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "165": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "184": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "185": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "224": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "225": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "244": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "245": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 134,
+   "trials": 49404,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "0": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "1": {
+     "seeds": 28,
+     "pairs": 1820,
+     "triples": 0,
+     "positives": 0
+    },
+    "4": {
+     "seeds": 18,
+     "pairs": 1170,
+     "triples": 0,
+     "positives": 0
+    },
+    "5": {
+     "seeds": 28,
+     "pairs": 1820,
+     "triples": 0,
+     "positives": 0
+    },
+    "20": {
+     "seeds": 14,
+     "pairs": 910,
+     "triples": 0,
+     "positives": 0
+    },
+    "21": {
+     "seeds": 28,
+     "pairs": 1820,
+     "triples": 0,
+     "positives": 0
+    },
+    "24": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "25": {
+     "seeds": 28,
+     "pairs": 1820,
+     "triples": 0,
+     "positives": 0
+    },
+    "40": {
+     "seeds": 18,
+     "pairs": 1170,
+     "triples": 0,
+     "positives": 0
+    },
+    "41": {
+     "seeds": 28,
+     "pairs": 1820,
+     "triples": 0,
+     "positives": 0
+    },
+    "44": {
+     "seeds": 24,
+     "pairs": 1560,
+     "triples": 0,
+     "positives": 0
+    },
+    "45": {
+     "seeds": 28,
+     "pairs": 1820,
+     "triples": 0,
+     "positives": 0
+    },
+    "60": {
+     "seeds": 14,
+     "pairs": 910,
+     "triples": 0,
+     "positives": 0
+    },
+    "61": {
+     "seeds": 28,
+     "pairs": 1820,
+     "triples": 0,
+     "positives": 0
+    },
+    "64": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "65": {
+     "seeds": 28,
+     "pairs": 1820,
+     "triples": 0,
+     "positives": 0
+    },
+    "80": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "81": {
+     "seeds": 22,
+     "pairs": 1430,
+     "triples": 0,
+     "positives": 0
+    },
+    "84": {
+     "seeds": 16,
+     "pairs": 1040,
+     "triples": 0,
+     "positives": 0
+    },
+    "85": {
+     "seeds": 22,
+     "pairs": 1430,
+     "triples": 0,
+     "positives": 0
+    },
+    "120": {
+     "seeds": 13,
+     "pairs": 845,
+     "triples": 0,
+     "positives": 0
+    },
+    "121": {
+     "seeds": 22,
+     "pairs": 1430,
+     "triples": 0,
+     "positives": 0
+    },
+    "124": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "125": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "140": {
+     "seeds": 13,
+     "pairs": 845,
+     "triples": 0,
+     "positives": 0
+    },
+    "141": {
+     "seeds": 22,
+     "pairs": 1430,
+     "triples": 0,
+     "positives": 0
+    },
+    "144": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "145": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "160": {
+     "seeds": 9,
+     "pairs": 585,
+     "triples": 0,
+     "positives": 0
+    },
+    "161": {
+     "seeds": 22,
+     "pairs": 1430,
+     "triples": 0,
+     "positives": 0
+    },
+    "164": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "165": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "180": {
+     "seeds": 9,
+     "pairs": 585,
+     "triples": 0,
+     "positives": 0
+    },
+    "181": {
+     "seeds": 22,
+     "pairs": 1430,
+     "triples": 0,
+     "positives": 0
+    },
+    "184": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "185": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "200": {
+     "seeds": 15,
+     "pairs": 975,
+     "triples": 0,
+     "positives": 0
+    },
+    "201": {
+     "seeds": 22,
+     "pairs": 1430,
+     "triples": 0,
+     "positives": 0
+    },
+    "204": {
+     "seeds": 15,
+     "pairs": 975,
+     "triples": 0,
+     "positives": 0
+    },
+    "205": {
+     "seeds": 22,
+     "pairs": 1430,
+     "triples": 0,
+     "positives": 0
+    },
+    "220": {
+     "seeds": 14,
+     "pairs": 910,
+     "triples": 0,
+     "positives": 0
+    },
+    "221": {
+     "seeds": 28,
+     "pairs": 1820,
+     "triples": 0,
+     "positives": 0
+    },
+    "224": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "225": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "240": {
+     "seeds": 14,
+     "pairs": 910,
+     "triples": 0,
+     "positives": 0
+    },
+    "241": {
+     "seeds": 28,
+     "pairs": 1820,
+     "triples": 0,
+     "positives": 0
+    },
+    "244": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "245": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 135,
+   "trials": 1080,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "124": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "125": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "144": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "145": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "164": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "165": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "184": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "185": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "224": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "225": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "244": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "245": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 136,
+   "trials": 134937,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 112,
+     "pairs": 29120,
+     "triples": 5000,
+     "positives": 0
+    },
+    "0": {
+     "seeds": 9,
+     "pairs": 585,
+     "triples": 0,
+     "positives": 0
+    },
+    "1": {
+     "seeds": 40,
+     "pairs": 2600,
+     "triples": 0,
+     "positives": 0
+    },
+    "4": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "5": {
+     "seeds": 28,
+     "pairs": 1820,
+     "triples": 0,
+     "positives": 0
+    },
+    "20": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "21": {
+     "seeds": 40,
+     "pairs": 2600,
+     "triples": 0,
+     "positives": 0
+    },
+    "24": {
+     "seeds": 25,
+     "pairs": 1625,
+     "triples": 0,
+     "positives": 0
+    },
+    "25": {
+     "seeds": 28,
+     "pairs": 1820,
+     "triples": 0,
+     "positives": 0
+    },
+    "40": {
+     "seeds": 27,
+     "pairs": 1755,
+     "triples": 0,
+     "positives": 0
+    },
+    "41": {
+     "seeds": 40,
+     "pairs": 2600,
+     "triples": 0,
+     "positives": 0
+    },
+    "44": {
+     "seeds": 25,
+     "pairs": 1625,
+     "triples": 0,
+     "positives": 0
+    },
+    "45": {
+     "seeds": 28,
+     "pairs": 1820,
+     "triples": 0,
+     "positives": 0
+    },
+    "60": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "61": {
+     "seeds": 40,
+     "pairs": 2600,
+     "triples": 0,
+     "positives": 0
+    },
+    "64": {
+     "seeds": 25,
+     "pairs": 1625,
+     "triples": 0,
+     "positives": 0
+    },
+    "65": {
+     "seeds": 28,
+     "pairs": 1820,
+     "triples": 0,
+     "positives": 0
+    },
+    "80": {
+     "seeds": 16,
+     "pairs": 1040,
+     "triples": 0,
+     "positives": 0
+    },
+    "81": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "84": {
+     "seeds": 26,
+     "pairs": 1690,
+     "triples": 0,
+     "positives": 0
+    },
+    "85": {
+     "seeds": 28,
+     "pairs": 1820,
+     "triples": 0,
+     "positives": 0
+    },
+    "104": {
+     "seeds": 22,
+     "pairs": 1430,
+     "triples": 0,
+     "positives": 0
+    },
+    "105": {
+     "seeds": 28,
+     "pairs": 1820,
+     "triples": 0,
+     "positives": 0
+    },
+    "120": {
+     "seeds": 29,
+     "pairs": 1885,
+     "triples": 0,
+     "positives": 0
+    },
+    "121": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "124": {
+     "seeds": 28,
+     "pairs": 1820,
+     "triples": 0,
+     "positives": 0
+    },
+    "125": {
+     "seeds": 28,
+     "pairs": 1820,
+     "triples": 0,
+     "positives": 0
+    },
+    "140": {
+     "seeds": 29,
+     "pairs": 1885,
+     "triples": 0,
+     "positives": 0
+    },
+    "141": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "144": {
+     "seeds": 28,
+     "pairs": 1820,
+     "triples": 0,
+     "positives": 0
+    },
+    "145": {
+     "seeds": 28,
+     "pairs": 1820,
+     "triples": 0,
+     "positives": 0
+    },
+    "160": {
+     "seeds": 25,
+     "pairs": 1625,
+     "triples": 0,
+     "positives": 0
+    },
+    "161": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "164": {
+     "seeds": 28,
+     "pairs": 1820,
+     "triples": 0,
+     "positives": 0
+    },
+    "165": {
+     "seeds": 28,
+     "pairs": 1820,
+     "triples": 0,
+     "positives": 0
+    },
+    "180": {
+     "seeds": 25,
+     "pairs": 1625,
+     "triples": 0,
+     "positives": 0
+    },
+    "181": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "184": {
+     "seeds": 28,
+     "pairs": 1820,
+     "triples": 0,
+     "positives": 0
+    },
+    "185": {
+     "seeds": 28,
+     "pairs": 1820,
+     "triples": 0,
+     "positives": 0
+    },
+    "200": {
+     "seeds": 34,
+     "pairs": 2210,
+     "triples": 0,
+     "positives": 0
+    },
+    "201": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "204": {
+     "seeds": 34,
+     "pairs": 2210,
+     "triples": 0,
+     "positives": 0
+    },
+    "205": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "220": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "221": {
+     "seeds": 40,
+     "pairs": 2600,
+     "triples": 0,
+     "positives": 0
+    },
+    "224": {
+     "seeds": 28,
+     "pairs": 1820,
+     "triples": 0,
+     "positives": 0
+    },
+    "225": {
+     "seeds": 28,
+     "pairs": 1820,
+     "triples": 0,
+     "positives": 0
+    },
+    "240": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "241": {
+     "seeds": 40,
+     "pairs": 2600,
+     "triples": 0,
+     "positives": 0
+    },
+    "244": {
+     "seeds": 28,
+     "pairs": 1820,
+     "triples": 0,
+     "positives": 0
+    },
+    "245": {
+     "seeds": 28,
+     "pairs": 1820,
+     "triples": 0,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 137,
+   "trials": 78218,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 112,
+     "pairs": 29120,
+     "triples": 5000,
+     "positives": 0
+    },
+    "4": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "5": {
+     "seeds": 28,
+     "pairs": 1820,
+     "triples": 0,
+     "positives": 0
+    },
+    "24": {
+     "seeds": 25,
+     "pairs": 1625,
+     "triples": 0,
+     "positives": 0
+    },
+    "25": {
+     "seeds": 28,
+     "pairs": 1820,
+     "triples": 0,
+     "positives": 0
+    },
+    "44": {
+     "seeds": 25,
+     "pairs": 1625,
+     "triples": 0,
+     "positives": 0
+    },
+    "45": {
+     "seeds": 28,
+     "pairs": 1820,
+     "triples": 0,
+     "positives": 0
+    },
+    "64": {
+     "seeds": 25,
+     "pairs": 1625,
+     "triples": 0,
+     "positives": 0
+    },
+    "65": {
+     "seeds": 28,
+     "pairs": 1820,
+     "triples": 0,
+     "positives": 0
+    },
+    "84": {
+     "seeds": 26,
+     "pairs": 1690,
+     "triples": 0,
+     "positives": 0
+    },
+    "85": {
+     "seeds": 28,
+     "pairs": 1820,
+     "triples": 0,
+     "positives": 0
+    },
+    "104": {
+     "seeds": 22,
+     "pairs": 1430,
+     "triples": 0,
+     "positives": 0
+    },
+    "105": {
+     "seeds": 28,
+     "pairs": 1820,
+     "triples": 0,
+     "positives": 0
+    },
+    "124": {
+     "seeds": 28,
+     "pairs": 1820,
+     "triples": 0,
+     "positives": 0
+    },
+    "125": {
+     "seeds": 28,
+     "pairs": 1820,
+     "triples": 0,
+     "positives": 0
+    },
+    "144": {
+     "seeds": 28,
+     "pairs": 1820,
+     "triples": 0,
+     "positives": 0
+    },
+    "145": {
+     "seeds": 28,
+     "pairs": 1820,
+     "triples": 0,
+     "positives": 0
+    },
+    "164": {
+     "seeds": 28,
+     "pairs": 1820,
+     "triples": 0,
+     "positives": 0
+    },
+    "165": {
+     "seeds": 28,
+     "pairs": 1820,
+     "triples": 0,
+     "positives": 0
+    },
+    "184": {
+     "seeds": 28,
+     "pairs": 1820,
+     "triples": 0,
+     "positives": 0
+    },
+    "185": {
+     "seeds": 28,
+     "pairs": 1820,
+     "triples": 0,
+     "positives": 0
+    },
+    "224": {
+     "seeds": 28,
+     "pairs": 1820,
+     "triples": 0,
+     "positives": 0
+    },
+    "225": {
+     "seeds": 28,
+     "pairs": 1820,
+     "triples": 0,
+     "positives": 0
+    },
+    "244": {
+     "seeds": 28,
+     "pairs": 1820,
+     "triples": 0,
+     "positives": 0
+    },
+    "245": {
+     "seeds": 28,
+     "pairs": 1820,
+     "triples": 0,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 138,
+   "trials": 134937,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 112,
+     "pairs": 29120,
+     "triples": 5000,
+     "positives": 0
+    },
+    "0": {
+     "seeds": 9,
+     "pairs": 585,
+     "triples": 0,
+     "positives": 0
+    },
+    "1": {
+     "seeds": 40,
+     "pairs": 2600,
+     "triples": 0,
+     "positives": 0
+    },
+    "4": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "5": {
+     "seeds": 28,
+     "pairs": 1820,
+     "triples": 0,
+     "positives": 0
+    },
+    "20": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "21": {
+     "seeds": 40,
+     "pairs": 2600,
+     "triples": 0,
+     "positives": 0
+    },
+    "24": {
+     "seeds": 25,
+     "pairs": 1625,
+     "triples": 0,
+     "positives": 0
+    },
+    "25": {
+     "seeds": 28,
+     "pairs": 1820,
+     "triples": 0,
+     "positives": 0
+    },
+    "40": {
+     "seeds": 27,
+     "pairs": 1755,
+     "triples": 0,
+     "positives": 0
+    },
+    "41": {
+     "seeds": 40,
+     "pairs": 2600,
+     "triples": 0,
+     "positives": 0
+    },
+    "44": {
+     "seeds": 25,
+     "pairs": 1625,
+     "triples": 0,
+     "positives": 0
+    },
+    "45": {
+     "seeds": 28,
+     "pairs": 1820,
+     "triples": 0,
+     "positives": 0
+    },
+    "60": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "61": {
+     "seeds": 40,
+     "pairs": 2600,
+     "triples": 0,
+     "positives": 0
+    },
+    "64": {
+     "seeds": 25,
+     "pairs": 1625,
+     "triples": 0,
+     "positives": 0
+    },
+    "65": {
+     "seeds": 28,
+     "pairs": 1820,
+     "triples": 0,
+     "positives": 0
+    },
+    "80": {
+     "seeds": 16,
+     "pairs": 1040,
+     "triples": 0,
+     "positives": 0
+    },
+    "81": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "84": {
+     "seeds": 26,
+     "pairs": 1690,
+     "triples": 0,
+     "positives": 0
+    },
+    "85": {
+     "seeds": 28,
+     "pairs": 1820,
+     "triples": 0,
+     "positives": 0
+    },
+    "104": {
+     "seeds": 22,
+     "pairs": 1430,
+     "triples": 0,
+     "positives": 0
+    },
+    "105": {
+     "seeds": 28,
+     "pairs": 1820,
+     "triples": 0,
+     "positives": 0
+    },
+    "120": {
+     "seeds": 29,
+     "pairs": 1885,
+     "triples": 0,
+     "positives": 0
+    },
+    "121": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "124": {
+     "seeds": 28,
+     "pairs": 1820,
+     "triples": 0,
+     "positives": 0
+    },
+    "125": {
+     "seeds": 28,
+     "pairs": 1820,
+     "triples": 0,
+     "positives": 0
+    },
+    "140": {
+     "seeds": 29,
+     "pairs": 1885,
+     "triples": 0,
+     "positives": 0
+    },
+    "141": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "144": {
+     "seeds": 28,
+     "pairs": 1820,
+     "triples": 0,
+     "positives": 0
+    },
+    "145": {
+     "seeds": 28,
+     "pairs": 1820,
+     "triples": 0,
+     "positives": 0
+    },
+    "160": {
+     "seeds": 25,
+     "pairs": 1625,
+     "triples": 0,
+     "positives": 0
+    },
+    "161": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "164": {
+     "seeds": 28,
+     "pairs": 1820,
+     "triples": 0,
+     "positives": 0
+    },
+    "165": {
+     "seeds": 28,
+     "pairs": 1820,
+     "triples": 0,
+     "positives": 0
+    },
+    "180": {
+     "seeds": 25,
+     "pairs": 1625,
+     "triples": 0,
+     "positives": 0
+    },
+    "181": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "184": {
+     "seeds": 28,
+     "pairs": 1820,
+     "triples": 0,
+     "positives": 0
+    },
+    "185": {
+     "seeds": 28,
+     "pairs": 1820,
+     "triples": 0,
+     "positives": 0
+    },
+    "200": {
+     "seeds": 34,
+     "pairs": 2210,
+     "triples": 0,
+     "positives": 0
+    },
+    "201": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "204": {
+     "seeds": 34,
+     "pairs": 2210,
+     "triples": 0,
+     "positives": 0
+    },
+    "205": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "220": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "221": {
+     "seeds": 40,
+     "pairs": 2600,
+     "triples": 0,
+     "positives": 0
+    },
+    "224": {
+     "seeds": 28,
+     "pairs": 1820,
+     "triples": 0,
+     "positives": 0
+    },
+    "225": {
+     "seeds": 28,
+     "pairs": 1820,
+     "triples": 0,
+     "positives": 0
+    },
+    "240": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "241": {
+     "seeds": 40,
+     "pairs": 2600,
+     "triples": 0,
+     "positives": 0
+    },
+    "244": {
+     "seeds": 28,
+     "pairs": 1820,
+     "triples": 0,
+     "positives": 0
+    },
+    "245": {
+     "seeds": 28,
+     "pairs": 1820,
+     "triples": 0,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 139,
+   "trials": 78218,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 112,
+     "pairs": 29120,
+     "triples": 5000,
+     "positives": 0
+    },
+    "4": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "5": {
+     "seeds": 28,
+     "pairs": 1820,
+     "triples": 0,
+     "positives": 0
+    },
+    "24": {
+     "seeds": 25,
+     "pairs": 1625,
+     "triples": 0,
+     "positives": 0
+    },
+    "25": {
+     "seeds": 28,
+     "pairs": 1820,
+     "triples": 0,
+     "positives": 0
+    },
+    "44": {
+     "seeds": 25,
+     "pairs": 1625,
+     "triples": 0,
+     "positives": 0
+    },
+    "45": {
+     "seeds": 28,
+     "pairs": 1820,
+     "triples": 0,
+     "positives": 0
+    },
+    "64": {
+     "seeds": 25,
+     "pairs": 1625,
+     "triples": 0,
+     "positives": 0
+    },
+    "65": {
+     "seeds": 28,
+     "pairs": 1820,
+     "triples": 0,
+     "positives": 0
+    },
+    "84": {
+     "seeds": 26,
+     "pairs": 1690,
+     "triples": 0,
+     "positives": 0
+    },
+    "85": {
+     "seeds": 28,
+     "pairs": 1820,
+     "triples": 0,
+     "positives": 0
+    },
+    "104": {
+     "seeds": 22,
+     "pairs": 1430,
+     "triples": 0,
+     "positives": 0
+    },
+    "105": {
+     "seeds": 28,
+     "pairs": 1820,
+     "triples": 0,
+     "positives": 0
+    },
+    "124": {
+     "seeds": 28,
+     "pairs": 1820,
+     "triples": 0,
+     "positives": 0
+    },
+    "125": {
+     "seeds": 28,
+     "pairs": 1820,
+     "triples": 0,
+     "positives": 0
+    },
+    "144": {
+     "seeds": 28,
+     "pairs": 1820,
+     "triples": 0,
+     "positives": 0
+    },
+    "145": {
+     "seeds": 28,
+     "pairs": 1820,
+     "triples": 0,
+     "positives": 0
+    },
+    "164": {
+     "seeds": 28,
+     "pairs": 1820,
+     "triples": 0,
+     "positives": 0
+    },
+    "165": {
+     "seeds": 28,
+     "pairs": 1820,
+     "triples": 0,
+     "positives": 0
+    },
+    "184": {
+     "seeds": 28,
+     "pairs": 1820,
+     "triples": 0,
+     "positives": 0
+    },
+    "185": {
+     "seeds": 28,
+     "pairs": 1820,
+     "triples": 0,
+     "positives": 0
+    },
+    "224": {
+     "seeds": 28,
+     "pairs": 1820,
+     "triples": 0,
+     "positives": 0
+    },
+    "225": {
+     "seeds": 28,
+     "pairs": 1820,
+     "triples": 0,
+     "positives": 0
+    },
+    "244": {
+     "seeds": 28,
+     "pairs": 1820,
+     "triples": 0,
+     "positives": 0
+    },
+    "245": {
+     "seeds": 28,
+     "pairs": 1820,
+     "triples": 0,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 140,
+   "trials": 123369,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 108,
+     "pairs": 28080,
+     "triples": 5000,
+     "positives": 0
+    },
+    "0": {
+     "seeds": 13,
+     "pairs": 845,
+     "triples": 0,
+     "positives": 0
+    },
+    "1": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "4": {
+     "seeds": 31,
+     "pairs": 2015,
+     "triples": 0,
+     "positives": 0
+    },
+    "5": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "20": {
+     "seeds": 27,
+     "pairs": 1755,
+     "triples": 0,
+     "positives": 0
+    },
+    "21": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "24": {
+     "seeds": 36,
+     "pairs": 2340,
+     "triples": 0,
+     "positives": 0
+    },
+    "25": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "40": {
+     "seeds": 22,
+     "pairs": 1430,
+     "triples": 0,
+     "positives": 0
+    },
+    "41": {
+     "seeds": 27,
+     "pairs": 1755,
+     "triples": 0,
+     "positives": 0
+    },
+    "44": {
+     "seeds": 25,
+     "pairs": 1625,
+     "triples": 0,
+     "positives": 0
+    },
+    "45": {
+     "seeds": 27,
+     "pairs": 1755,
+     "triples": 0,
+     "positives": 0
+    },
+    "60": {
+     "seeds": 18,
+     "pairs": 1170,
+     "triples": 0,
+     "positives": 0
+    },
+    "61": {
+     "seeds": 27,
+     "pairs": 1755,
+     "triples": 0,
+     "positives": 0
+    },
+    "64": {
+     "seeds": 24,
+     "pairs": 1560,
+     "triples": 0,
+     "positives": 0
+    },
+    "65": {
+     "seeds": 27,
+     "pairs": 1755,
+     "triples": 0,
+     "positives": 0
+    },
+    "80": {
+     "seeds": 14,
+     "pairs": 910,
+     "triples": 0,
+     "positives": 0
+    },
+    "81": {
+     "seeds": 36,
+     "pairs": 2340,
+     "triples": 0,
+     "positives": 0
+    },
+    "84": {
+     "seeds": 30,
+     "pairs": 1950,
+     "triples": 0,
+     "positives": 0
+    },
+    "85": {
+     "seeds": 36,
+     "pairs": 2340,
+     "triples": 0,
+     "positives": 0
+    },
+    "120": {
+     "seeds": 27,
+     "pairs": 1755,
+     "triples": 0,
+     "positives": 0
+    },
+    "121": {
+     "seeds": 36,
+     "pairs": 2340,
+     "triples": 0,
+     "positives": 0
+    },
+    "124": {
+     "seeds": 27,
+     "pairs": 1755,
+     "triples": 0,
+     "positives": 0
+    },
+    "125": {
+     "seeds": 27,
+     "pairs": 1755,
+     "triples": 0,
+     "positives": 0
+    },
+    "140": {
+     "seeds": 27,
+     "pairs": 1755,
+     "triples": 0,
+     "positives": 0
+    },
+    "141": {
+     "seeds": 36,
+     "pairs": 2340,
+     "triples": 0,
+     "positives": 0
+    },
+    "144": {
+     "seeds": 27,
+     "pairs": 1755,
+     "triples": 0,
+     "positives": 0
+    },
+    "145": {
+     "seeds": 27,
+     "pairs": 1755,
+     "triples": 0,
+     "positives": 0
+    },
+    "160": {
+     "seeds": 19,
+     "pairs": 1235,
+     "triples": 0,
+     "positives": 0
+    },
+    "161": {
+     "seeds": 27,
+     "pairs": 1755,
+     "triples": 0,
+     "positives": 0
+    },
+    "164": {
+     "seeds": 27,
+     "pairs": 1755,
+     "triples": 0,
+     "positives": 0
+    },
+    "165": {
+     "seeds": 27,
+     "pairs": 1755,
+     "triples": 0,
+     "positives": 0
+    },
+    "180": {
+     "seeds": 19,
+     "pairs": 1235,
+     "triples": 0,
+     "positives": 0
+    },
+    "181": {
+     "seeds": 27,
+     "pairs": 1755,
+     "triples": 0,
+     "positives": 0
+    },
+    "184": {
+     "seeds": 27,
+     "pairs": 1755,
+     "triples": 0,
+     "positives": 0
+    },
+    "185": {
+     "seeds": 27,
+     "pairs": 1755,
+     "triples": 0,
+     "positives": 0
+    },
+    "200": {
+     "seeds": 22,
+     "pairs": 1430,
+     "triples": 0,
+     "positives": 0
+    },
+    "201": {
+     "seeds": 27,
+     "pairs": 1755,
+     "triples": 0,
+     "positives": 0
+    },
+    "204": {
+     "seeds": 22,
+     "pairs": 1430,
+     "triples": 0,
+     "positives": 0
+    },
+    "205": {
+     "seeds": 27,
+     "pairs": 1755,
+     "triples": 0,
+     "positives": 0
+    },
+    "220": {
+     "seeds": 27,
+     "pairs": 1755,
+     "triples": 0,
+     "positives": 0
+    },
+    "221": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "224": {
+     "seeds": 27,
+     "pairs": 1755,
+     "triples": 0,
+     "positives": 0
+    },
+    "225": {
+     "seeds": 27,
+     "pairs": 1755,
+     "triples": 0,
+     "positives": 0
+    },
+    "240": {
+     "seeds": 18,
+     "pairs": 1170,
+     "triples": 0,
+     "positives": 0
+    },
+    "241": {
+     "seeds": 27,
+     "pairs": 1755,
+     "triples": 0,
+     "positives": 0
+    },
+    "244": {
+     "seeds": 27,
+     "pairs": 1755,
+     "triples": 0,
+     "positives": 0
+    },
+    "245": {
+     "seeds": 27,
+     "pairs": 1755,
+     "triples": 0,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 141,
+   "trials": 84452,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 108,
+     "pairs": 28080,
+     "triples": 5000,
+     "positives": 0
+    },
+    "40": {
+     "seeds": 22,
+     "pairs": 1430,
+     "triples": 0,
+     "positives": 0
+    },
+    "41": {
+     "seeds": 27,
+     "pairs": 1755,
+     "triples": 0,
+     "positives": 0
+    },
+    "44": {
+     "seeds": 25,
+     "pairs": 1625,
+     "triples": 0,
+     "positives": 0
+    },
+    "45": {
+     "seeds": 27,
+     "pairs": 1755,
+     "triples": 0,
+     "positives": 0
+    },
+    "60": {
+     "seeds": 18,
+     "pairs": 1170,
+     "triples": 0,
+     "positives": 0
+    },
+    "61": {
+     "seeds": 27,
+     "pairs": 1755,
+     "triples": 0,
+     "positives": 0
+    },
+    "64": {
+     "seeds": 24,
+     "pairs": 1560,
+     "triples": 0,
+     "positives": 0
+    },
+    "65": {
+     "seeds": 27,
+     "pairs": 1755,
+     "triples": 0,
+     "positives": 0
+    },
+    "124": {
+     "seeds": 27,
+     "pairs": 1755,
+     "triples": 0,
+     "positives": 0
+    },
+    "125": {
+     "seeds": 27,
+     "pairs": 1755,
+     "triples": 0,
+     "positives": 0
+    },
+    "144": {
+     "seeds": 27,
+     "pairs": 1755,
+     "triples": 0,
+     "positives": 0
+    },
+    "145": {
+     "seeds": 27,
+     "pairs": 1755,
+     "triples": 0,
+     "positives": 0
+    },
+    "160": {
+     "seeds": 19,
+     "pairs": 1235,
+     "triples": 0,
+     "positives": 0
+    },
+    "161": {
+     "seeds": 27,
+     "pairs": 1755,
+     "triples": 0,
+     "positives": 0
+    },
+    "164": {
+     "seeds": 27,
+     "pairs": 1755,
+     "triples": 0,
+     "positives": 0
+    },
+    "165": {
+     "seeds": 27,
+     "pairs": 1755,
+     "triples": 0,
+     "positives": 0
+    },
+    "180": {
+     "seeds": 19,
+     "pairs": 1235,
+     "triples": 0,
+     "positives": 0
+    },
+    "181": {
+     "seeds": 27,
+     "pairs": 1755,
+     "triples": 0,
+     "positives": 0
+    },
+    "184": {
+     "seeds": 27,
+     "pairs": 1755,
+     "triples": 0,
+     "positives": 0
+    },
+    "185": {
+     "seeds": 27,
+     "pairs": 1755,
+     "triples": 0,
+     "positives": 0
+    },
+    "200": {
+     "seeds": 22,
+     "pairs": 1430,
+     "triples": 0,
+     "positives": 0
+    },
+    "201": {
+     "seeds": 27,
+     "pairs": 1755,
+     "triples": 0,
+     "positives": 0
+    },
+    "204": {
+     "seeds": 22,
+     "pairs": 1430,
+     "triples": 0,
+     "positives": 0
+    },
+    "205": {
+     "seeds": 27,
+     "pairs": 1755,
+     "triples": 0,
+     "positives": 0
+    },
+    "224": {
+     "seeds": 27,
+     "pairs": 1755,
+     "triples": 0,
+     "positives": 0
+    },
+    "225": {
+     "seeds": 27,
+     "pairs": 1755,
+     "triples": 0,
+     "positives": 0
+    },
+    "240": {
+     "seeds": 18,
+     "pairs": 1170,
+     "triples": 0,
+     "positives": 0
+    },
+    "241": {
+     "seeds": 27,
+     "pairs": 1755,
+     "triples": 0,
+     "positives": 0
+    },
+    "244": {
+     "seeds": 27,
+     "pairs": 1755,
+     "triples": 0,
+     "positives": 0
+    },
+    "245": {
+     "seeds": 27,
+     "pairs": 1755,
+     "triples": 0,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 142,
+   "trials": 123369,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 108,
+     "pairs": 28080,
+     "triples": 5000,
+     "positives": 0
+    },
+    "0": {
+     "seeds": 13,
+     "pairs": 845,
+     "triples": 0,
+     "positives": 0
+    },
+    "1": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "4": {
+     "seeds": 31,
+     "pairs": 2015,
+     "triples": 0,
+     "positives": 0
+    },
+    "5": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "20": {
+     "seeds": 27,
+     "pairs": 1755,
+     "triples": 0,
+     "positives": 0
+    },
+    "21": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "24": {
+     "seeds": 36,
+     "pairs": 2340,
+     "triples": 0,
+     "positives": 0
+    },
+    "25": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "40": {
+     "seeds": 22,
+     "pairs": 1430,
+     "triples": 0,
+     "positives": 0
+    },
+    "41": {
+     "seeds": 27,
+     "pairs": 1755,
+     "triples": 0,
+     "positives": 0
+    },
+    "44": {
+     "seeds": 25,
+     "pairs": 1625,
+     "triples": 0,
+     "positives": 0
+    },
+    "45": {
+     "seeds": 27,
+     "pairs": 1755,
+     "triples": 0,
+     "positives": 0
+    },
+    "60": {
+     "seeds": 18,
+     "pairs": 1170,
+     "triples": 0,
+     "positives": 0
+    },
+    "61": {
+     "seeds": 27,
+     "pairs": 1755,
+     "triples": 0,
+     "positives": 0
+    },
+    "64": {
+     "seeds": 24,
+     "pairs": 1560,
+     "triples": 0,
+     "positives": 0
+    },
+    "65": {
+     "seeds": 27,
+     "pairs": 1755,
+     "triples": 0,
+     "positives": 0
+    },
+    "80": {
+     "seeds": 14,
+     "pairs": 910,
+     "triples": 0,
+     "positives": 0
+    },
+    "81": {
+     "seeds": 36,
+     "pairs": 2340,
+     "triples": 0,
+     "positives": 0
+    },
+    "84": {
+     "seeds": 30,
+     "pairs": 1950,
+     "triples": 0,
+     "positives": 0
+    },
+    "85": {
+     "seeds": 36,
+     "pairs": 2340,
+     "triples": 0,
+     "positives": 0
+    },
+    "120": {
+     "seeds": 27,
+     "pairs": 1755,
+     "triples": 0,
+     "positives": 0
+    },
+    "121": {
+     "seeds": 36,
+     "pairs": 2340,
+     "triples": 0,
+     "positives": 0
+    },
+    "124": {
+     "seeds": 27,
+     "pairs": 1755,
+     "triples": 0,
+     "positives": 0
+    },
+    "125": {
+     "seeds": 27,
+     "pairs": 1755,
+     "triples": 0,
+     "positives": 0
+    },
+    "140": {
+     "seeds": 27,
+     "pairs": 1755,
+     "triples": 0,
+     "positives": 0
+    },
+    "141": {
+     "seeds": 36,
+     "pairs": 2340,
+     "triples": 0,
+     "positives": 0
+    },
+    "144": {
+     "seeds": 27,
+     "pairs": 1755,
+     "triples": 0,
+     "positives": 0
+    },
+    "145": {
+     "seeds": 27,
+     "pairs": 1755,
+     "triples": 0,
+     "positives": 0
+    },
+    "160": {
+     "seeds": 19,
+     "pairs": 1235,
+     "triples": 0,
+     "positives": 0
+    },
+    "161": {
+     "seeds": 27,
+     "pairs": 1755,
+     "triples": 0,
+     "positives": 0
+    },
+    "164": {
+     "seeds": 27,
+     "pairs": 1755,
+     "triples": 0,
+     "positives": 0
+    },
+    "165": {
+     "seeds": 27,
+     "pairs": 1755,
+     "triples": 0,
+     "positives": 0
+    },
+    "180": {
+     "seeds": 19,
+     "pairs": 1235,
+     "triples": 0,
+     "positives": 0
+    },
+    "181": {
+     "seeds": 27,
+     "pairs": 1755,
+     "triples": 0,
+     "positives": 0
+    },
+    "184": {
+     "seeds": 27,
+     "pairs": 1755,
+     "triples": 0,
+     "positives": 0
+    },
+    "185": {
+     "seeds": 27,
+     "pairs": 1755,
+     "triples": 0,
+     "positives": 0
+    },
+    "200": {
+     "seeds": 22,
+     "pairs": 1430,
+     "triples": 0,
+     "positives": 0
+    },
+    "201": {
+     "seeds": 27,
+     "pairs": 1755,
+     "triples": 0,
+     "positives": 0
+    },
+    "204": {
+     "seeds": 22,
+     "pairs": 1430,
+     "triples": 0,
+     "positives": 0
+    },
+    "205": {
+     "seeds": 27,
+     "pairs": 1755,
+     "triples": 0,
+     "positives": 0
+    },
+    "220": {
+     "seeds": 27,
+     "pairs": 1755,
+     "triples": 0,
+     "positives": 0
+    },
+    "221": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "224": {
+     "seeds": 27,
+     "pairs": 1755,
+     "triples": 0,
+     "positives": 0
+    },
+    "225": {
+     "seeds": 27,
+     "pairs": 1755,
+     "triples": 0,
+     "positives": 0
+    },
+    "240": {
+     "seeds": 18,
+     "pairs": 1170,
+     "triples": 0,
+     "positives": 0
+    },
+    "241": {
+     "seeds": 27,
+     "pairs": 1755,
+     "triples": 0,
+     "positives": 0
+    },
+    "244": {
+     "seeds": 27,
+     "pairs": 1755,
+     "triples": 0,
+     "positives": 0
+    },
+    "245": {
+     "seeds": 27,
+     "pairs": 1755,
+     "triples": 0,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 143,
+   "trials": 84452,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 108,
+     "pairs": 28080,
+     "triples": 5000,
+     "positives": 0
+    },
+    "40": {
+     "seeds": 22,
+     "pairs": 1430,
+     "triples": 0,
+     "positives": 0
+    },
+    "41": {
+     "seeds": 27,
+     "pairs": 1755,
+     "triples": 0,
+     "positives": 0
+    },
+    "44": {
+     "seeds": 25,
+     "pairs": 1625,
+     "triples": 0,
+     "positives": 0
+    },
+    "45": {
+     "seeds": 27,
+     "pairs": 1755,
+     "triples": 0,
+     "positives": 0
+    },
+    "60": {
+     "seeds": 18,
+     "pairs": 1170,
+     "triples": 0,
+     "positives": 0
+    },
+    "61": {
+     "seeds": 27,
+     "pairs": 1755,
+     "triples": 0,
+     "positives": 0
+    },
+    "64": {
+     "seeds": 24,
+     "pairs": 1560,
+     "triples": 0,
+     "positives": 0
+    },
+    "65": {
+     "seeds": 27,
+     "pairs": 1755,
+     "triples": 0,
+     "positives": 0
+    },
+    "124": {
+     "seeds": 27,
+     "pairs": 1755,
+     "triples": 0,
+     "positives": 0
+    },
+    "125": {
+     "seeds": 27,
+     "pairs": 1755,
+     "triples": 0,
+     "positives": 0
+    },
+    "144": {
+     "seeds": 27,
+     "pairs": 1755,
+     "triples": 0,
+     "positives": 0
+    },
+    "145": {
+     "seeds": 27,
+     "pairs": 1755,
+     "triples": 0,
+     "positives": 0
+    },
+    "160": {
+     "seeds": 19,
+     "pairs": 1235,
+     "triples": 0,
+     "positives": 0
+    },
+    "161": {
+     "seeds": 27,
+     "pairs": 1755,
+     "triples": 0,
+     "positives": 0
+    },
+    "164": {
+     "seeds": 27,
+     "pairs": 1755,
+     "triples": 0,
+     "positives": 0
+    },
+    "165": {
+     "seeds": 27,
+     "pairs": 1755,
+     "triples": 0,
+     "positives": 0
+    },
+    "180": {
+     "seeds": 19,
+     "pairs": 1235,
+     "triples": 0,
+     "positives": 0
+    },
+    "181": {
+     "seeds": 27,
+     "pairs": 1755,
+     "triples": 0,
+     "positives": 0
+    },
+    "184": {
+     "seeds": 27,
+     "pairs": 1755,
+     "triples": 0,
+     "positives": 0
+    },
+    "185": {
+     "seeds": 27,
+     "pairs": 1755,
+     "triples": 0,
+     "positives": 0
+    },
+    "200": {
+     "seeds": 22,
+     "pairs": 1430,
+     "triples": 0,
+     "positives": 0
+    },
+    "201": {
+     "seeds": 27,
+     "pairs": 1755,
+     "triples": 0,
+     "positives": 0
+    },
+    "204": {
+     "seeds": 22,
+     "pairs": 1430,
+     "triples": 0,
+     "positives": 0
+    },
+    "205": {
+     "seeds": 27,
+     "pairs": 1755,
+     "triples": 0,
+     "positives": 0
+    },
+    "224": {
+     "seeds": 27,
+     "pairs": 1755,
+     "triples": 0,
+     "positives": 0
+    },
+    "225": {
+     "seeds": 27,
+     "pairs": 1755,
+     "triples": 0,
+     "positives": 0
+    },
+    "240": {
+     "seeds": 18,
+     "pairs": 1170,
+     "triples": 0,
+     "positives": 0
+    },
+    "241": {
+     "seeds": 27,
+     "pairs": 1755,
+     "triples": 0,
+     "positives": 0
+    },
+    "244": {
+     "seeds": 27,
+     "pairs": 1755,
+     "triples": 0,
+     "positives": 0
+    },
+    "245": {
+     "seeds": 27,
+     "pairs": 1755,
+     "triples": 0,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 144,
+   "trials": 179923,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 188,
+     "pairs": 48880,
+     "triples": 5000,
+     "positives": 0
+    },
+    "4": {
+     "seeds": 39,
+     "pairs": 2535,
+     "triples": 0,
+     "positives": 0
+    },
+    "5": {
+     "seeds": 47,
+     "pairs": 3055,
+     "triples": 0,
+     "positives": 0
+    },
+    "24": {
+     "seeds": 44,
+     "pairs": 2860,
+     "triples": 0,
+     "positives": 0
+    },
+    "25": {
+     "seeds": 47,
+     "pairs": 3055,
+     "triples": 0,
+     "positives": 0
+    },
+    "40": {
+     "seeds": 36,
+     "pairs": 2340,
+     "triples": 0,
+     "positives": 0
+    },
+    "41": {
+     "seeds": 47,
+     "pairs": 3055,
+     "triples": 0,
+     "positives": 0
+    },
+    "44": {
+     "seeds": 43,
+     "pairs": 2795,
+     "triples": 0,
+     "positives": 0
+    },
+    "45": {
+     "seeds": 47,
+     "pairs": 3055,
+     "triples": 0,
+     "positives": 0
+    },
+    "60": {
+     "seeds": 32,
+     "pairs": 2080,
+     "triples": 0,
+     "positives": 0
+    },
+    "61": {
+     "seeds": 47,
+     "pairs": 3055,
+     "triples": 0,
+     "positives": 0
+    },
+    "64": {
+     "seeds": 42,
+     "pairs": 2730,
+     "triples": 0,
+     "positives": 0
+    },
+    "65": {
+     "seeds": 47,
+     "pairs": 3055,
+     "triples": 0,
+     "positives": 0
+    },
+    "80": {
+     "seeds": 22,
+     "pairs": 1430,
+     "triples": 0,
+     "positives": 0
+    },
+    "81": {
+     "seeds": 47,
+     "pairs": 3055,
+     "triples": 0,
+     "positives": 0
+    },
+    "84": {
+     "seeds": 40,
+     "pairs": 2600,
+     "triples": 0,
+     "positives": 0
+    },
+    "85": {
+     "seeds": 47,
+     "pairs": 3055,
+     "triples": 0,
+     "positives": 0
+    },
+    "104": {
+     "seeds": 33,
+     "pairs": 2145,
+     "triples": 0,
+     "positives": 0
+    },
+    "105": {
+     "seeds": 47,
+     "pairs": 3055,
+     "triples": 0,
+     "positives": 0
+    },
+    "120": {
+     "seeds": 35,
+     "pairs": 2275,
+     "triples": 0,
+     "positives": 0
+    },
+    "121": {
+     "seeds": 47,
+     "pairs": 3055,
+     "triples": 0,
+     "positives": 0
+    },
+    "124": {
+     "seeds": 47,
+     "pairs": 3055,
+     "triples": 0,
+     "positives": 0
+    },
+    "125": {
+     "seeds": 47,
+     "pairs": 3055,
+     "triples": 0,
+     "positives": 0
+    },
+    "140": {
+     "seeds": 35,
+     "pairs": 2275,
+     "triples": 0,
+     "positives": 0
+    },
+    "141": {
+     "seeds": 47,
+     "pairs": 3055,
+     "triples": 0,
+     "positives": 0
+    },
+    "144": {
+     "seeds": 47,
+     "pairs": 3055,
+     "triples": 0,
+     "positives": 0
+    },
+    "145": {
+     "seeds": 47,
+     "pairs": 3055,
+     "triples": 0,
+     "positives": 0
+    },
+    "160": {
+     "seeds": 31,
+     "pairs": 2015,
+     "triples": 0,
+     "positives": 0
+    },
+    "161": {
+     "seeds": 47,
+     "pairs": 3055,
+     "triples": 0,
+     "positives": 0
+    },
+    "164": {
+     "seeds": 47,
+     "pairs": 3055,
+     "triples": 0,
+     "positives": 0
+    },
+    "165": {
+     "seeds": 47,
+     "pairs": 3055,
+     "triples": 0,
+     "positives": 0
+    },
+    "180": {
+     "seeds": 31,
+     "pairs": 2015,
+     "triples": 0,
+     "positives": 0
+    },
+    "181": {
+     "seeds": 47,
+     "pairs": 3055,
+     "triples": 0,
+     "positives": 0
+    },
+    "184": {
+     "seeds": 47,
+     "pairs": 3055,
+     "triples": 0,
+     "positives": 0
+    },
+    "185": {
+     "seeds": 47,
+     "pairs": 3055,
+     "triples": 0,
+     "positives": 0
+    },
+    "200": {
+     "seeds": 40,
+     "pairs": 2600,
+     "triples": 0,
+     "positives": 0
+    },
+    "201": {
+     "seeds": 47,
+     "pairs": 3055,
+     "triples": 0,
+     "positives": 0
+    },
+    "204": {
+     "seeds": 40,
+     "pairs": 2600,
+     "triples": 0,
+     "positives": 0
+    },
+    "205": {
+     "seeds": 47,
+     "pairs": 3055,
+     "triples": 0,
+     "positives": 0
+    },
+    "224": {
+     "seeds": 47,
+     "pairs": 3055,
+     "triples": 0,
+     "positives": 0
+    },
+    "225": {
+     "seeds": 47,
+     "pairs": 3055,
+     "triples": 0,
+     "positives": 0
+    },
+    "240": {
+     "seeds": 32,
+     "pairs": 2080,
+     "triples": 0,
+     "positives": 0
+    },
+    "241": {
+     "seeds": 47,
+     "pairs": 3055,
+     "triples": 0,
+     "positives": 0
+    },
+    "244": {
+     "seeds": 47,
+     "pairs": 3055,
+     "triples": 0,
+     "positives": 0
+    },
+    "245": {
+     "seeds": 47,
+     "pairs": 3055,
+     "triples": 0,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 145,
+   "trials": 1,
+   "positives": 0,
+   "invalid": "on",
+   "pre": {}
+  },
+  {
+   "victim": 146,
+   "trials": 179923,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 188,
+     "pairs": 48880,
+     "triples": 5000,
+     "positives": 0
+    },
+    "4": {
+     "seeds": 39,
+     "pairs": 2535,
+     "triples": 0,
+     "positives": 0
+    },
+    "5": {
+     "seeds": 47,
+     "pairs": 3055,
+     "triples": 0,
+     "positives": 0
+    },
+    "24": {
+     "seeds": 44,
+     "pairs": 2860,
+     "triples": 0,
+     "positives": 0
+    },
+    "25": {
+     "seeds": 47,
+     "pairs": 3055,
+     "triples": 0,
+     "positives": 0
+    },
+    "40": {
+     "seeds": 36,
+     "pairs": 2340,
+     "triples": 0,
+     "positives": 0
+    },
+    "41": {
+     "seeds": 47,
+     "pairs": 3055,
+     "triples": 0,
+     "positives": 0
+    },
+    "44": {
+     "seeds": 43,
+     "pairs": 2795,
+     "triples": 0,
+     "positives": 0
+    },
+    "45": {
+     "seeds": 47,
+     "pairs": 3055,
+     "triples": 0,
+     "positives": 0
+    },
+    "60": {
+     "seeds": 32,
+     "pairs": 2080,
+     "triples": 0,
+     "positives": 0
+    },
+    "61": {
+     "seeds": 47,
+     "pairs": 3055,
+     "triples": 0,
+     "positives": 0
+    },
+    "64": {
+     "seeds": 42,
+     "pairs": 2730,
+     "triples": 0,
+     "positives": 0
+    },
+    "65": {
+     "seeds": 47,
+     "pairs": 3055,
+     "triples": 0,
+     "positives": 0
+    },
+    "80": {
+     "seeds": 22,
+     "pairs": 1430,
+     "triples": 0,
+     "positives": 0
+    },
+    "81": {
+     "seeds": 47,
+     "pairs": 3055,
+     "triples": 0,
+     "positives": 0
+    },
+    "84": {
+     "seeds": 40,
+     "pairs": 2600,
+     "triples": 0,
+     "positives": 0
+    },
+    "85": {
+     "seeds": 47,
+     "pairs": 3055,
+     "triples": 0,
+     "positives": 0
+    },
+    "104": {
+     "seeds": 33,
+     "pairs": 2145,
+     "triples": 0,
+     "positives": 0
+    },
+    "105": {
+     "seeds": 47,
+     "pairs": 3055,
+     "triples": 0,
+     "positives": 0
+    },
+    "120": {
+     "seeds": 35,
+     "pairs": 2275,
+     "triples": 0,
+     "positives": 0
+    },
+    "121": {
+     "seeds": 47,
+     "pairs": 3055,
+     "triples": 0,
+     "positives": 0
+    },
+    "124": {
+     "seeds": 47,
+     "pairs": 3055,
+     "triples": 0,
+     "positives": 0
+    },
+    "125": {
+     "seeds": 47,
+     "pairs": 3055,
+     "triples": 0,
+     "positives": 0
+    },
+    "140": {
+     "seeds": 35,
+     "pairs": 2275,
+     "triples": 0,
+     "positives": 0
+    },
+    "141": {
+     "seeds": 47,
+     "pairs": 3055,
+     "triples": 0,
+     "positives": 0
+    },
+    "144": {
+     "seeds": 47,
+     "pairs": 3055,
+     "triples": 0,
+     "positives": 0
+    },
+    "145": {
+     "seeds": 47,
+     "pairs": 3055,
+     "triples": 0,
+     "positives": 0
+    },
+    "160": {
+     "seeds": 31,
+     "pairs": 2015,
+     "triples": 0,
+     "positives": 0
+    },
+    "161": {
+     "seeds": 47,
+     "pairs": 3055,
+     "triples": 0,
+     "positives": 0
+    },
+    "164": {
+     "seeds": 47,
+     "pairs": 3055,
+     "triples": 0,
+     "positives": 0
+    },
+    "165": {
+     "seeds": 47,
+     "pairs": 3055,
+     "triples": 0,
+     "positives": 0
+    },
+    "180": {
+     "seeds": 31,
+     "pairs": 2015,
+     "triples": 0,
+     "positives": 0
+    },
+    "181": {
+     "seeds": 47,
+     "pairs": 3055,
+     "triples": 0,
+     "positives": 0
+    },
+    "184": {
+     "seeds": 47,
+     "pairs": 3055,
+     "triples": 0,
+     "positives": 0
+    },
+    "185": {
+     "seeds": 47,
+     "pairs": 3055,
+     "triples": 0,
+     "positives": 0
+    },
+    "200": {
+     "seeds": 40,
+     "pairs": 2600,
+     "triples": 0,
+     "positives": 0
+    },
+    "201": {
+     "seeds": 47,
+     "pairs": 3055,
+     "triples": 0,
+     "positives": 0
+    },
+    "204": {
+     "seeds": 40,
+     "pairs": 2600,
+     "triples": 0,
+     "positives": 0
+    },
+    "205": {
+     "seeds": 47,
+     "pairs": 3055,
+     "triples": 0,
+     "positives": 0
+    },
+    "224": {
+     "seeds": 47,
+     "pairs": 3055,
+     "triples": 0,
+     "positives": 0
+    },
+    "225": {
+     "seeds": 47,
+     "pairs": 3055,
+     "triples": 0,
+     "positives": 0
+    },
+    "240": {
+     "seeds": 32,
+     "pairs": 2080,
+     "triples": 0,
+     "positives": 0
+    },
+    "241": {
+     "seeds": 47,
+     "pairs": 3055,
+     "triples": 0,
+     "positives": 0
+    },
+    "244": {
+     "seeds": 47,
+     "pairs": 3055,
+     "triples": 0,
+     "positives": 0
+    },
+    "245": {
+     "seeds": 47,
+     "pairs": 3055,
+     "triples": 0,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 147,
+   "trials": 1,
+   "positives": 0,
+   "invalid": "on",
+   "pre": {}
+  },
+  {
+   "victim": 148,
+   "trials": 108809,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 92,
+     "pairs": 23920,
+     "triples": 5000,
+     "positives": 0
+    },
+    "0": {
+     "seeds": 9,
+     "pairs": 585,
+     "triples": 0,
+     "positives": 0
+    },
+    "1": {
+     "seeds": 37,
+     "pairs": 2405,
+     "triples": 0,
+     "positives": 0
+    },
+    "4": {
+     "seeds": 27,
+     "pairs": 1755,
+     "triples": 0,
+     "positives": 0
+    },
+    "5": {
+     "seeds": 37,
+     "pairs": 2405,
+     "triples": 0,
+     "positives": 0
+    },
+    "20": {
+     "seeds": 14,
+     "pairs": 910,
+     "triples": 0,
+     "positives": 0
+    },
+    "21": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "24": {
+     "seeds": 20,
+     "pairs": 1300,
+     "triples": 0,
+     "positives": 0
+    },
+    "25": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "40": {
+     "seeds": 18,
+     "pairs": 1170,
+     "triples": 0,
+     "positives": 0
+    },
+    "41": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "44": {
+     "seeds": 21,
+     "pairs": 1365,
+     "triples": 0,
+     "positives": 0
+    },
+    "45": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "60": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "61": {
+     "seeds": 37,
+     "pairs": 2405,
+     "triples": 0,
+     "positives": 0
+    },
+    "64": {
+     "seeds": 32,
+     "pairs": 2080,
+     "triples": 0,
+     "positives": 0
+    },
+    "65": {
+     "seeds": 37,
+     "pairs": 2405,
+     "triples": 0,
+     "positives": 0
+    },
+    "80": {
+     "seeds": 14,
+     "pairs": 910,
+     "triples": 0,
+     "positives": 0
+    },
+    "81": {
+     "seeds": 36,
+     "pairs": 2340,
+     "triples": 0,
+     "positives": 0
+    },
+    "84": {
+     "seeds": 30,
+     "pairs": 1950,
+     "triples": 0,
+     "positives": 0
+    },
+    "85": {
+     "seeds": 36,
+     "pairs": 2340,
+     "triples": 0,
+     "positives": 0
+    },
+    "120": {
+     "seeds": 19,
+     "pairs": 1235,
+     "triples": 0,
+     "positives": 0
+    },
+    "121": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "124": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "125": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "140": {
+     "seeds": 19,
+     "pairs": 1235,
+     "triples": 0,
+     "positives": 0
+    },
+    "141": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "144": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "145": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "160": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "161": {
+     "seeds": 36,
+     "pairs": 2340,
+     "triples": 0,
+     "positives": 0
+    },
+    "164": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "165": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "180": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "181": {
+     "seeds": 36,
+     "pairs": 2340,
+     "triples": 0,
+     "positives": 0
+    },
+    "184": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "185": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "200": {
+     "seeds": 18,
+     "pairs": 1170,
+     "triples": 0,
+     "positives": 0
+    },
+    "201": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "204": {
+     "seeds": 18,
+     "pairs": 1170,
+     "triples": 0,
+     "positives": 0
+    },
+    "205": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "220": {
+     "seeds": 14,
+     "pairs": 910,
+     "triples": 0,
+     "positives": 0
+    },
+    "221": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "224": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "225": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "240": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "241": {
+     "seeds": 37,
+     "pairs": 2405,
+     "triples": 0,
+     "positives": 0
+    },
+    "244": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "245": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 149,
+   "trials": 73012,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 92,
+     "pairs": 23920,
+     "triples": 5000,
+     "positives": 0
+    },
+    "20": {
+     "seeds": 14,
+     "pairs": 910,
+     "triples": 0,
+     "positives": 0
+    },
+    "21": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "24": {
+     "seeds": 20,
+     "pairs": 1300,
+     "triples": 0,
+     "positives": 0
+    },
+    "25": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "40": {
+     "seeds": 18,
+     "pairs": 1170,
+     "triples": 0,
+     "positives": 0
+    },
+    "41": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "44": {
+     "seeds": 21,
+     "pairs": 1365,
+     "triples": 0,
+     "positives": 0
+    },
+    "45": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "120": {
+     "seeds": 19,
+     "pairs": 1235,
+     "triples": 0,
+     "positives": 0
+    },
+    "121": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "124": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "125": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "140": {
+     "seeds": 19,
+     "pairs": 1235,
+     "triples": 0,
+     "positives": 0
+    },
+    "141": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "144": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "145": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "164": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "165": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "184": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "185": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "200": {
+     "seeds": 18,
+     "pairs": 1170,
+     "triples": 0,
+     "positives": 0
+    },
+    "201": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "204": {
+     "seeds": 18,
+     "pairs": 1170,
+     "triples": 0,
+     "positives": 0
+    },
+    "205": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "220": {
+     "seeds": 14,
+     "pairs": 910,
+     "triples": 0,
+     "positives": 0
+    },
+    "221": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "224": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "225": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "244": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "245": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 150,
+   "trials": 108809,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 92,
+     "pairs": 23920,
+     "triples": 5000,
+     "positives": 0
+    },
+    "0": {
+     "seeds": 9,
+     "pairs": 585,
+     "triples": 0,
+     "positives": 0
+    },
+    "1": {
+     "seeds": 37,
+     "pairs": 2405,
+     "triples": 0,
+     "positives": 0
+    },
+    "4": {
+     "seeds": 27,
+     "pairs": 1755,
+     "triples": 0,
+     "positives": 0
+    },
+    "5": {
+     "seeds": 37,
+     "pairs": 2405,
+     "triples": 0,
+     "positives": 0
+    },
+    "20": {
+     "seeds": 14,
+     "pairs": 910,
+     "triples": 0,
+     "positives": 0
+    },
+    "21": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "24": {
+     "seeds": 20,
+     "pairs": 1300,
+     "triples": 0,
+     "positives": 0
+    },
+    "25": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "40": {
+     "seeds": 18,
+     "pairs": 1170,
+     "triples": 0,
+     "positives": 0
+    },
+    "41": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "44": {
+     "seeds": 21,
+     "pairs": 1365,
+     "triples": 0,
+     "positives": 0
+    },
+    "45": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "60": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "61": {
+     "seeds": 37,
+     "pairs": 2405,
+     "triples": 0,
+     "positives": 0
+    },
+    "64": {
+     "seeds": 32,
+     "pairs": 2080,
+     "triples": 0,
+     "positives": 0
+    },
+    "65": {
+     "seeds": 37,
+     "pairs": 2405,
+     "triples": 0,
+     "positives": 0
+    },
+    "80": {
+     "seeds": 14,
+     "pairs": 910,
+     "triples": 0,
+     "positives": 0
+    },
+    "81": {
+     "seeds": 36,
+     "pairs": 2340,
+     "triples": 0,
+     "positives": 0
+    },
+    "84": {
+     "seeds": 30,
+     "pairs": 1950,
+     "triples": 0,
+     "positives": 0
+    },
+    "85": {
+     "seeds": 36,
+     "pairs": 2340,
+     "triples": 0,
+     "positives": 0
+    },
+    "120": {
+     "seeds": 19,
+     "pairs": 1235,
+     "triples": 0,
+     "positives": 0
+    },
+    "121": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "124": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "125": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "140": {
+     "seeds": 19,
+     "pairs": 1235,
+     "triples": 0,
+     "positives": 0
+    },
+    "141": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "144": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "145": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "160": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "161": {
+     "seeds": 36,
+     "pairs": 2340,
+     "triples": 0,
+     "positives": 0
+    },
+    "164": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "165": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "180": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "181": {
+     "seeds": 36,
+     "pairs": 2340,
+     "triples": 0,
+     "positives": 0
+    },
+    "184": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "185": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "200": {
+     "seeds": 18,
+     "pairs": 1170,
+     "triples": 0,
+     "positives": 0
+    },
+    "201": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "204": {
+     "seeds": 18,
+     "pairs": 1170,
+     "triples": 0,
+     "positives": 0
+    },
+    "205": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "220": {
+     "seeds": 14,
+     "pairs": 910,
+     "triples": 0,
+     "positives": 0
+    },
+    "221": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "224": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "225": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "240": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "241": {
+     "seeds": 37,
+     "pairs": 2405,
+     "triples": 0,
+     "positives": 0
+    },
+    "244": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "245": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 151,
+   "trials": 73012,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 92,
+     "pairs": 23920,
+     "triples": 5000,
+     "positives": 0
+    },
+    "20": {
+     "seeds": 14,
+     "pairs": 910,
+     "triples": 0,
+     "positives": 0
+    },
+    "21": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "24": {
+     "seeds": 20,
+     "pairs": 1300,
+     "triples": 0,
+     "positives": 0
+    },
+    "25": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "40": {
+     "seeds": 18,
+     "pairs": 1170,
+     "triples": 0,
+     "positives": 0
+    },
+    "41": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "44": {
+     "seeds": 21,
+     "pairs": 1365,
+     "triples": 0,
+     "positives": 0
+    },
+    "45": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "120": {
+     "seeds": 19,
+     "pairs": 1235,
+     "triples": 0,
+     "positives": 0
+    },
+    "121": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "124": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "125": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "140": {
+     "seeds": 19,
+     "pairs": 1235,
+     "triples": 0,
+     "positives": 0
+    },
+    "141": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "144": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "145": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "164": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "165": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "184": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "185": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "200": {
+     "seeds": 18,
+     "pairs": 1170,
+     "triples": 0,
+     "positives": 0
+    },
+    "201": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "204": {
+     "seeds": 18,
+     "pairs": 1170,
+     "triples": 0,
+     "positives": 0
+    },
+    "205": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "220": {
+     "seeds": 14,
+     "pairs": 910,
+     "triples": 0,
+     "positives": 0
+    },
+    "221": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "224": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "225": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "244": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    },
+    "245": {
+     "seeds": 23,
+     "pairs": 1495,
+     "triples": 0,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 152,
+   "trials": 174262,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 164,
+     "pairs": 42640,
+     "triples": 5000,
+     "positives": 0
+    },
+    "0": {
+     "seeds": 16,
+     "pairs": 1040,
+     "triples": 0,
+     "positives": 0
+    },
+    "1": {
+     "seeds": 47,
+     "pairs": 3055,
+     "triples": 0,
+     "positives": 0
+    },
+    "4": {
+     "seeds": 33,
+     "pairs": 2145,
+     "triples": 0,
+     "positives": 0
+    },
+    "5": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "20": {
+     "seeds": 26,
+     "pairs": 1690,
+     "triples": 0,
+     "positives": 0
+    },
+    "21": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "24": {
+     "seeds": 36,
+     "pairs": 2340,
+     "triples": 0,
+     "positives": 0
+    },
+    "25": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "40": {
+     "seeds": 30,
+     "pairs": 1950,
+     "triples": 0,
+     "positives": 0
+    },
+    "41": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "44": {
+     "seeds": 37,
+     "pairs": 2405,
+     "triples": 0,
+     "positives": 0
+    },
+    "45": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "60": {
+     "seeds": 30,
+     "pairs": 1950,
+     "triples": 0,
+     "positives": 0
+    },
+    "61": {
+     "seeds": 47,
+     "pairs": 3055,
+     "triples": 0,
+     "positives": 0
+    },
+    "64": {
+     "seeds": 38,
+     "pairs": 2470,
+     "triples": 0,
+     "positives": 0
+    },
+    "65": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "80": {
+     "seeds": 22,
+     "pairs": 1430,
+     "triples": 0,
+     "positives": 0
+    },
+    "81": {
+     "seeds": 47,
+     "pairs": 3055,
+     "triples": 0,
+     "positives": 0
+    },
+    "84": {
+     "seeds": 37,
+     "pairs": 2405,
+     "triples": 0,
+     "positives": 0
+    },
+    "85": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "104": {
+     "seeds": 30,
+     "pairs": 1950,
+     "triples": 0,
+     "positives": 0
+    },
+    "105": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "120": {
+     "seeds": 31,
+     "pairs": 2015,
+     "triples": 0,
+     "positives": 0
+    },
+    "121": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "124": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "125": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "140": {
+     "seeds": 31,
+     "pairs": 2015,
+     "triples": 0,
+     "positives": 0
+    },
+    "141": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "144": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "145": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "160": {
+     "seeds": 31,
+     "pairs": 2015,
+     "triples": 0,
+     "positives": 0
+    },
+    "161": {
+     "seeds": 47,
+     "pairs": 3055,
+     "triples": 0,
+     "positives": 0
+    },
+    "164": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "165": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "180": {
+     "seeds": 31,
+     "pairs": 2015,
+     "triples": 0,
+     "positives": 0
+    },
+    "181": {
+     "seeds": 47,
+     "pairs": 3055,
+     "triples": 0,
+     "positives": 0
+    },
+    "184": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "185": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "200": {
+     "seeds": 36,
+     "pairs": 2340,
+     "triples": 0,
+     "positives": 0
+    },
+    "201": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "204": {
+     "seeds": 36,
+     "pairs": 2340,
+     "triples": 0,
+     "positives": 0
+    },
+    "205": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "220": {
+     "seeds": 26,
+     "pairs": 1690,
+     "triples": 0,
+     "positives": 0
+    },
+    "221": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "224": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "225": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "240": {
+     "seeds": 30,
+     "pairs": 1950,
+     "triples": 0,
+     "positives": 0
+    },
+    "241": {
+     "seeds": 47,
+     "pairs": 3055,
+     "triples": 0,
+     "positives": 0
+    },
+    "244": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "245": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 153,
+   "trials": 144764,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 164,
+     "pairs": 42640,
+     "triples": 5000,
+     "positives": 0
+    },
+    "4": {
+     "seeds": 33,
+     "pairs": 2145,
+     "triples": 0,
+     "positives": 0
+    },
+    "5": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "20": {
+     "seeds": 26,
+     "pairs": 1690,
+     "triples": 0,
+     "positives": 0
+    },
+    "21": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "24": {
+     "seeds": 36,
+     "pairs": 2340,
+     "triples": 0,
+     "positives": 0
+    },
+    "25": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "40": {
+     "seeds": 30,
+     "pairs": 1950,
+     "triples": 0,
+     "positives": 0
+    },
+    "41": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "44": {
+     "seeds": 37,
+     "pairs": 2405,
+     "triples": 0,
+     "positives": 0
+    },
+    "45": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "64": {
+     "seeds": 38,
+     "pairs": 2470,
+     "triples": 0,
+     "positives": 0
+    },
+    "65": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "84": {
+     "seeds": 37,
+     "pairs": 2405,
+     "triples": 0,
+     "positives": 0
+    },
+    "85": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "104": {
+     "seeds": 30,
+     "pairs": 1950,
+     "triples": 0,
+     "positives": 0
+    },
+    "105": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "120": {
+     "seeds": 31,
+     "pairs": 2015,
+     "triples": 0,
+     "positives": 0
+    },
+    "121": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "124": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "125": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "140": {
+     "seeds": 31,
+     "pairs": 2015,
+     "triples": 0,
+     "positives": 0
+    },
+    "141": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "144": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "145": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "164": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "165": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "184": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "185": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "200": {
+     "seeds": 36,
+     "pairs": 2340,
+     "triples": 0,
+     "positives": 0
+    },
+    "201": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "204": {
+     "seeds": 36,
+     "pairs": 2340,
+     "triples": 0,
+     "positives": 0
+    },
+    "205": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "220": {
+     "seeds": 26,
+     "pairs": 1690,
+     "triples": 0,
+     "positives": 0
+    },
+    "221": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "224": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "225": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "244": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "245": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 154,
+   "trials": 174262,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 164,
+     "pairs": 42640,
+     "triples": 5000,
+     "positives": 0
+    },
+    "0": {
+     "seeds": 16,
+     "pairs": 1040,
+     "triples": 0,
+     "positives": 0
+    },
+    "1": {
+     "seeds": 47,
+     "pairs": 3055,
+     "triples": 0,
+     "positives": 0
+    },
+    "4": {
+     "seeds": 33,
+     "pairs": 2145,
+     "triples": 0,
+     "positives": 0
+    },
+    "5": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "20": {
+     "seeds": 26,
+     "pairs": 1690,
+     "triples": 0,
+     "positives": 0
+    },
+    "21": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "24": {
+     "seeds": 36,
+     "pairs": 2340,
+     "triples": 0,
+     "positives": 0
+    },
+    "25": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "40": {
+     "seeds": 30,
+     "pairs": 1950,
+     "triples": 0,
+     "positives": 0
+    },
+    "41": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "44": {
+     "seeds": 37,
+     "pairs": 2405,
+     "triples": 0,
+     "positives": 0
+    },
+    "45": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "60": {
+     "seeds": 30,
+     "pairs": 1950,
+     "triples": 0,
+     "positives": 0
+    },
+    "61": {
+     "seeds": 47,
+     "pairs": 3055,
+     "triples": 0,
+     "positives": 0
+    },
+    "64": {
+     "seeds": 38,
+     "pairs": 2470,
+     "triples": 0,
+     "positives": 0
+    },
+    "65": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "80": {
+     "seeds": 22,
+     "pairs": 1430,
+     "triples": 0,
+     "positives": 0
+    },
+    "81": {
+     "seeds": 47,
+     "pairs": 3055,
+     "triples": 0,
+     "positives": 0
+    },
+    "84": {
+     "seeds": 37,
+     "pairs": 2405,
+     "triples": 0,
+     "positives": 0
+    },
+    "85": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "104": {
+     "seeds": 30,
+     "pairs": 1950,
+     "triples": 0,
+     "positives": 0
+    },
+    "105": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "120": {
+     "seeds": 31,
+     "pairs": 2015,
+     "triples": 0,
+     "positives": 0
+    },
+    "121": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "124": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "125": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "140": {
+     "seeds": 31,
+     "pairs": 2015,
+     "triples": 0,
+     "positives": 0
+    },
+    "141": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "144": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "145": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "160": {
+     "seeds": 31,
+     "pairs": 2015,
+     "triples": 0,
+     "positives": 0
+    },
+    "161": {
+     "seeds": 47,
+     "pairs": 3055,
+     "triples": 0,
+     "positives": 0
+    },
+    "164": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "165": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "180": {
+     "seeds": 31,
+     "pairs": 2015,
+     "triples": 0,
+     "positives": 0
+    },
+    "181": {
+     "seeds": 47,
+     "pairs": 3055,
+     "triples": 0,
+     "positives": 0
+    },
+    "184": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "185": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "200": {
+     "seeds": 36,
+     "pairs": 2340,
+     "triples": 0,
+     "positives": 0
+    },
+    "201": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "204": {
+     "seeds": 36,
+     "pairs": 2340,
+     "triples": 0,
+     "positives": 0
+    },
+    "205": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "220": {
+     "seeds": 26,
+     "pairs": 1690,
+     "triples": 0,
+     "positives": 0
+    },
+    "221": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "224": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "225": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "240": {
+     "seeds": 30,
+     "pairs": 1950,
+     "triples": 0,
+     "positives": 0
+    },
+    "241": {
+     "seeds": 47,
+     "pairs": 3055,
+     "triples": 0,
+     "positives": 0
+    },
+    "244": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "245": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 155,
+   "trials": 144764,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 164,
+     "pairs": 42640,
+     "triples": 5000,
+     "positives": 0
+    },
+    "4": {
+     "seeds": 33,
+     "pairs": 2145,
+     "triples": 0,
+     "positives": 0
+    },
+    "5": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "20": {
+     "seeds": 26,
+     "pairs": 1690,
+     "triples": 0,
+     "positives": 0
+    },
+    "21": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "24": {
+     "seeds": 36,
+     "pairs": 2340,
+     "triples": 0,
+     "positives": 0
+    },
+    "25": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "40": {
+     "seeds": 30,
+     "pairs": 1950,
+     "triples": 0,
+     "positives": 0
+    },
+    "41": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "44": {
+     "seeds": 37,
+     "pairs": 2405,
+     "triples": 0,
+     "positives": 0
+    },
+    "45": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "64": {
+     "seeds": 38,
+     "pairs": 2470,
+     "triples": 0,
+     "positives": 0
+    },
+    "65": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "84": {
+     "seeds": 37,
+     "pairs": 2405,
+     "triples": 0,
+     "positives": 0
+    },
+    "85": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "104": {
+     "seeds": 30,
+     "pairs": 1950,
+     "triples": 0,
+     "positives": 0
+    },
+    "105": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "120": {
+     "seeds": 31,
+     "pairs": 2015,
+     "triples": 0,
+     "positives": 0
+    },
+    "121": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "124": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "125": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "140": {
+     "seeds": 31,
+     "pairs": 2015,
+     "triples": 0,
+     "positives": 0
+    },
+    "141": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "144": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "145": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "164": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "165": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "184": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "185": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "200": {
+     "seeds": 36,
+     "pairs": 2340,
+     "triples": 0,
+     "positives": 0
+    },
+    "201": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "204": {
+     "seeds": 36,
+     "pairs": 2340,
+     "triples": 0,
+     "positives": 0
+    },
+    "205": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "220": {
+     "seeds": 26,
+     "pairs": 1690,
+     "triples": 0,
+     "positives": 0
+    },
+    "221": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "224": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "225": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "244": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    },
+    "245": {
+     "seeds": 41,
+     "pairs": 2665,
+     "triples": 0,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 156,
+   "trials": 3640,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "0": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "1": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "4": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "5": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "20": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "21": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "24": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "25": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "40": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "41": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "44": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "45": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "60": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "61": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "64": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "65": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "80": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "81": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "84": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "85": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "100": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "101": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "104": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "105": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "120": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "121": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "124": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "125": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "140": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "141": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "144": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "145": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "160": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "161": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "164": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "165": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "180": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "181": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "184": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "185": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "200": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "201": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "204": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "205": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "220": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "221": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "224": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "225": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "240": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "241": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "244": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "245": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 157,
+   "trials": 3640,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "0": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "1": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "4": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "5": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "20": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "21": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "24": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "25": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "40": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "41": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "44": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "45": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "60": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "61": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "64": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "65": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "80": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "81": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "84": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "85": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "100": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "101": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "104": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "105": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "120": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "121": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "124": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "125": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "140": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "141": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "144": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "145": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "160": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "161": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "164": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "165": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "180": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "181": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "184": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "185": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "200": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "201": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "204": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "205": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "220": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "221": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "224": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "225": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "240": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "241": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "244": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "245": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 158,
+   "trials": 3640,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "0": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "1": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "4": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "5": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "20": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "21": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "24": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "25": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "40": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "41": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "44": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "45": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "60": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "61": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "64": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "65": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "80": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "81": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "84": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "85": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "100": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "101": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "104": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "105": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "120": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "121": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "124": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "125": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "140": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "141": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "144": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "145": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "160": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "161": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "164": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "165": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "180": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "181": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "184": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "185": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "200": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "201": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "204": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "205": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "220": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "221": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "224": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "225": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "240": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "241": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "244": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    },
+    "245": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 159,
+   "trials": 42700,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 144,
+     "pairs": 37440,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 160,
+   "trials": 52580,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 182,
+     "pairs": 47320,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 161,
+   "trials": 54140,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 188,
+     "pairs": 48880,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 162,
+   "trials": 58300,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 204,
+     "pairs": 53040,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 163,
+   "trials": 38540,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 128,
+     "pairs": 33280,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 164,
+   "trials": 50500,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 174,
+     "pairs": 45240,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 165,
+   "trials": 52060,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 180,
+     "pairs": 46800,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 166,
+   "trials": 57260,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 200,
+     "pairs": 52000,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 167,
+   "trials": 56220,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 196,
+     "pairs": 50960,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 168,
+   "trials": 59340,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 208,
+     "pairs": 54080,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 169,
+   "trials": 56220,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 196,
+     "pairs": 50960,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 170,
+   "trials": 59340,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 208,
+     "pairs": 54080,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 171,
+   "trials": 28140,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 88,
+     "pairs": 22880,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 172,
+   "trials": 47900,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 164,
+     "pairs": 42640,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 173,
+   "trials": 260,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 174,
+   "trials": 260,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 175,
+   "trials": 260,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 0,
+     "pairs": 0,
+     "triples": 0,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 176,
+   "trials": 34380,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 112,
+     "pairs": 29120,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 177,
+   "trials": 34380,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 112,
+     "pairs": 29120,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 178,
+   "trials": 34380,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 112,
+     "pairs": 29120,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 179,
+   "trials": 34380,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 112,
+     "pairs": 29120,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 180,
+   "trials": 34380,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 112,
+     "pairs": 29120,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 181,
+   "trials": 46860,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 160,
+     "pairs": 41600,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  },
+  {
+   "victim": 182,
+   "trials": 46860,
+   "positives": 0,
+   "invalid": null,
+   "pre": {
+    "None": {
+     "seeds": 160,
+     "pairs": 41600,
+     "triples": 5000,
+     "positives": 0
+    }
+   }
+  }
+ ]
+}

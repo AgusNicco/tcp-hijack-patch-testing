@@ -1,0 +1,12 @@
+Scenarios, 1,000 of each, in a fresh network namespace
+
+                                                TCP packets  TCP packets  Socket         Times the
+Scenario                                           received         sent   binds  changed code ran
+----------------------------------------------  -----------  -----------  ------  ----------------
+connect() + accept, to one listener                   6,003        5,000       1                 0
+one connection, 64 KiB each way                       6,009        6,008       1                 0
+bind to port 0, listen                                    0            0   1,000                 0
+bind each to its own port, listen                         0            0   1,000                 0
+identical SO_REUSEPORT listeners on one port              0            0   1,000             1,999
+the same, after a socket without SO_REUSEPORT             0            0   1,001             1,999
+SO_REUSEPORT wildcard, then specific addresses            0            0   1,001             2,001

@@ -1,0 +1,45 @@
+set maplatelisten: 3538944 sequences
+  base         kernel 7.4.0-rc1-virtme, 750.5 s, codes {'-': 8999592, 'L': 2974464, 'o': 14106888, 'u': 2230608}
+  proposed-patch kernel 7.4.0-rc1-virtme, 757.1 s, codes {'-': 9042756, 'L': 2974464, 'o': 13977396, 'u': 2316936}
+  full-scan-alternative kernel 7.4.0-rc1-virtme, 750.7 s, codes {'-': 9042756, 'L': 2974464, 'o': 13977396, 'u': 2316936}
+
+agree      3452616
+fixed      86328
+unchanged  0
+regressed  0
+other      0
+excluded   0
+
+fixed, bind() of socket 4: o- -> u-: 43164
+    sequence 18720
+      1. u1 v4 0.0.0.0 dev=- reuseaddr                              base=o-  proposed-patch=o-  full-scan-alternative=o-
+      2. u1 v4 0.0.0.0 dev=- reuseaddr reuseport listen             base=oo  proposed-patch=oo  full-scan-alternative=oo
+      3. socket 1 starts listening                                  base=Lu  proposed-patch=Lu  full-scan-alternative=Lu
+      4. u1 v4 0.0.0.0 dev=- reuseport                              base=o-  proposed-patch=u-  full-scan-alternative=u-
+    sequence 18724
+      1. u1 v4 0.0.0.0 dev=- reuseaddr                              base=o-  proposed-patch=o-  full-scan-alternative=o-
+      2. u1 v4 0.0.0.0 dev=- reuseaddr reuseport listen             base=oo  proposed-patch=oo  full-scan-alternative=oo
+      3. socket 1 starts listening                                  base=Lu  proposed-patch=Lu  full-scan-alternative=Lu
+      4. u1 v4 0.0.0.0 dev=dum1 reuseport                           base=o-  proposed-patch=u-  full-scan-alternative=u-
+    sequence 18728
+      1. u1 v4 0.0.0.0 dev=- reuseaddr                              base=o-  proposed-patch=o-  full-scan-alternative=o-
+      2. u1 v4 0.0.0.0 dev=- reuseaddr reuseport listen             base=oo  proposed-patch=oo  full-scan-alternative=oo
+      3. socket 1 starts listening                                  base=Lu  proposed-patch=Lu  full-scan-alternative=Lu
+      4. u1 v4 0.0.0.0 dev=dum2 reuseport                           base=o-  proposed-patch=u-  full-scan-alternative=u-
+
+fixed, bind() of socket 4: oo -> u-: 43164
+    sequence 18721
+      1. u1 v4 0.0.0.0 dev=- reuseaddr                              base=o-  proposed-patch=o-  full-scan-alternative=o-
+      2. u1 v4 0.0.0.0 dev=- reuseaddr reuseport listen             base=oo  proposed-patch=oo  full-scan-alternative=oo
+      3. socket 1 starts listening                                  base=Lu  proposed-patch=Lu  full-scan-alternative=Lu
+      4. u1 v4 0.0.0.0 dev=- reuseport listen                       base=oo  proposed-patch=u-  full-scan-alternative=u-
+    sequence 18725
+      1. u1 v4 0.0.0.0 dev=- reuseaddr                              base=o-  proposed-patch=o-  full-scan-alternative=o-
+      2. u1 v4 0.0.0.0 dev=- reuseaddr reuseport listen             base=oo  proposed-patch=oo  full-scan-alternative=oo
+      3. socket 1 starts listening                                  base=Lu  proposed-patch=Lu  full-scan-alternative=Lu
+      4. u1 v4 0.0.0.0 dev=dum1 reuseport listen                    base=oo  proposed-patch=u-  full-scan-alternative=u-
+    sequence 18729
+      1. u1 v4 0.0.0.0 dev=- reuseaddr                              base=o-  proposed-patch=o-  full-scan-alternative=o-
+      2. u1 v4 0.0.0.0 dev=- reuseaddr reuseport listen             base=oo  proposed-patch=oo  full-scan-alternative=oo
+      3. socket 1 starts listening                                  base=Lu  proposed-patch=Lu  full-scan-alternative=Lu
+      4. u1 v4 0.0.0.0 dev=dum2 reuseport listen                    base=oo  proposed-patch=u-  full-scan-alternative=u-

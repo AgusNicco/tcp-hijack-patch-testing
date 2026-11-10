@@ -1,0 +1,39 @@
+set timewait: 677376 sequences
+  base         kernel 7.4.0-rc1-virtme, 1477.7 s, codes {'-': 1591536, 'o': 1321776, 't': 677376, 'u': 473568}
+  proposed-patch kernel 7.4.0-rc1-virtme, 1477.1 s, codes {'-': 1593480, 'o': 1315944, 't': 677376, 'u': 477456}
+  full-scan-alternative kernel 7.4.0-rc1-virtme, 1478.7 s, codes {'-': 1593480, 'o': 1315944, 't': 677376, 'u': 477456}
+
+agree      673488
+fixed      3888
+unchanged  0
+regressed  0
+other      0
+excluded   0
+
+fixed, bind() of socket 3: o- -> u-: 1944
+    sequence 10272
+      1. u1 v4 10.0.0.1 TIME_WAIT -                                 base=t-  proposed-patch=t-  full-scan-alternative=t-
+      2. u1 v6only :: dev=- reuseport                               base=o-  proposed-patch=o-  full-scan-alternative=o-
+      3. u1 v6 :: dev=- reuseport                                   base=o-  proposed-patch=u-  full-scan-alternative=u-
+    sequence 10274
+      1. u1 v4 10.0.0.1 TIME_WAIT -                                 base=t-  proposed-patch=t-  full-scan-alternative=t-
+      2. u1 v6only :: dev=- reuseport                               base=o-  proposed-patch=o-  full-scan-alternative=o-
+      3. u1 v6 :: dev=- reuseaddr reuseport                         base=o-  proposed-patch=u-  full-scan-alternative=u-
+    sequence 10276
+      1. u1 v4 10.0.0.1 TIME_WAIT -                                 base=t-  proposed-patch=t-  full-scan-alternative=t-
+      2. u1 v6only :: dev=- reuseport                               base=o-  proposed-patch=o-  full-scan-alternative=o-
+      3. u1 v6 :: dev=dum1 reuseport                                base=o-  proposed-patch=u-  full-scan-alternative=u-
+
+fixed, bind() of socket 3: oo -> u-: 1944
+    sequence 10273
+      1. u1 v4 10.0.0.1 TIME_WAIT -                                 base=t-  proposed-patch=t-  full-scan-alternative=t-
+      2. u1 v6only :: dev=- reuseport                               base=o-  proposed-patch=o-  full-scan-alternative=o-
+      3. u1 v6 :: dev=- reuseport listen                            base=oo  proposed-patch=u-  full-scan-alternative=u-
+    sequence 10275
+      1. u1 v4 10.0.0.1 TIME_WAIT -                                 base=t-  proposed-patch=t-  full-scan-alternative=t-
+      2. u1 v6only :: dev=- reuseport                               base=o-  proposed-patch=o-  full-scan-alternative=o-
+      3. u1 v6 :: dev=- reuseaddr reuseport listen                  base=oo  proposed-patch=u-  full-scan-alternative=u-
+    sequence 10277
+      1. u1 v4 10.0.0.1 TIME_WAIT -                                 base=t-  proposed-patch=t-  full-scan-alternative=t-
+      2. u1 v6only :: dev=- reuseport                               base=o-  proposed-patch=o-  full-scan-alternative=o-
+      3. u1 v6 :: dev=dum1 reuseport listen                         base=oo  proposed-patch=u-  full-scan-alternative=u-

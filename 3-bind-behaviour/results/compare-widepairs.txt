@@ -1,0 +1,11 @@
+set widepairs: 331776 sequences
+  base         kernel 7.4.0-rc1-virtme, 171.3 s, codes {'-': 371368, 'o': 876552, 'u': 79184}
+  proposed-patch kernel 7.4.0-rc1-virtme, 180.3 s, codes {'-': 371368, 'o': 876552, 'u': 79184}
+  full-scan-alternative kernel 7.4.0-rc1-virtme, 160.0 s, codes {'-': 371368, 'o': 876552, 'u': 79184}
+
+agree      331776
+fixed      0
+unchanged  0
+regressed  0
+other      0
+excluded   0

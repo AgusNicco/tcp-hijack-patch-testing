@@ -1,0 +1,5 @@
+2026/11/08 21:55:09 [notice] 29#29: signal process started
+2026/11/08 21:55:09 [notice] 29#29: signal process started
+rt-haproxy
+rt-postgres
+rt-fastapi

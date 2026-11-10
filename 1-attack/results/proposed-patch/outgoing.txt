@@ -1,0 +1,15 @@
+kernel 7.4.0-rc1-virtme
+
+client curl: curl fetches 6/6 complete
+  attempt control=EADDRINUSE seed=ok hijack=EADDRINUSE takeover=not_attempted stolen=0
+  attempt control=EADDRINUSE seed=ok hijack=EADDRINUSE takeover=not_attempted stolen=0
+  attempt control=EADDRINUSE seed=ok hijack=EADDRINUSE takeover=not_attempted stolen=0
+  attempt control=EADDRINUSE seed=ok hijack=EADDRINUSE takeover=not_attempted stolen=0
+  attempt control=EADDRINUSE seed=ok hijack=EADDRINUSE takeover=not_attempted stolen=0
+  attempt control=EADDRINUSE seed=ok hijack=EADDRINUSE takeover=not_attempted stolen=0
+  attempts 6
+
+client firefox: firefox pages 2/2 loaded
+  attempt control=EADDRINUSE seed=ok hijack=EADDRINUSE takeover=not_attempted stolen=0
+  attempt control=EADDRINUSE seed=ok hijack=EADDRINUSE takeover=not_attempted stolen=0
+  attempts 2

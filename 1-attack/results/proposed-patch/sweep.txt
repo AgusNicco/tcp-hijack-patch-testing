@@ -1,0 +1,76 @@
+kernel 7.4.0-rc1-virtme
+
+service nginx, as the package ships it
+  listening on 0.0.0.0,::
+  5 of 5 socket shapes overlap it
+  seed 0.0.0.0                        refused, EADDRINUSE
+  seed 0.0.0.0 + absent device        refused, EADDRINUSE
+  seed 0.0.0.0 + lo                   refused, EADDRINUSE
+  seed 0.0.0.0 + SO_REUSEADDR         refused, EADDRINUSE
+  seed 127.0.0.2                      refused, EADDRINUSE
+  seed 127.0.0.2 + absent device      refused, EADDRINUSE
+  seed [::] v6only                    refused, EADDRINUSE
+  seed [::] v6only + absent device    refused, EADDRINUSE
+  seed [::] v6only + SO_REUSEADDR     refused, EADDRINUSE
+  seed [::] dual-stack                refused, EADDRINUSE
+  seed [::] dual-stack + absent device refused, EADDRINUSE
+  seed [::1]                          refused, EADDRINUSE
+  seed [::2]                          refused, EADDRINUSE
+  seed [::ffff:127.0.0.2] mapped      refused, EADDRINUSE
+  seed [fe80::1%lo] link-local        refused, EADDRINUSE
+  seed [::1] v6only                   refused, EADDRINUSE
+
+service HAProxy, one IPv4 bind, an administrator's choice
+  listening on 127.0.0.1
+  3 of 5 socket shapes overlap it
+  not swept: a probe that does not overlap it leaves a summary behind; see attack.py
+
+service FastAPI (uvicorn), as the package ships it
+  listening on 127.0.0.1
+  3 of 5 socket shapes overlap it
+  not swept: a probe that does not overlap it leaves a summary behind; see attack.py
+
+service OpenSSH, as the package ships it
+  listening on 0.0.0.0,::
+  5 of 5 socket shapes overlap it
+  seed 0.0.0.0                        refused, EADDRINUSE
+  seed 0.0.0.0 + absent device        refused, EADDRINUSE
+  seed 0.0.0.0 + lo                   refused, EADDRINUSE
+  seed 0.0.0.0 + SO_REUSEADDR         refused, EADDRINUSE
+  seed 127.0.0.2                      refused, EADDRINUSE
+  seed 127.0.0.2 + absent device      refused, EADDRINUSE
+  seed [::] v6only                    refused, EADDRINUSE
+  seed [::] v6only + absent device    refused, EADDRINUSE
+  seed [::] v6only + SO_REUSEADDR     refused, EADDRINUSE
+  seed [::] dual-stack                refused, EADDRINUSE
+  seed [::] dual-stack + absent device refused, EADDRINUSE
+  seed [::1]                          refused, EADDRINUSE
+  seed [::2]                          refused, EADDRINUSE
+  seed [::ffff:127.0.0.2] mapped      refused, EADDRINUSE
+  seed [fe80::1%lo] link-local        refused, EADDRINUSE
+  seed [::1] v6only                   refused, EADDRINUSE
+
+service PostgreSQL, as the package ships it
+  listening on 127.0.0.1
+  3 of 5 socket shapes overlap it
+  not swept: a probe that does not overlap it leaves a summary behind; see attack.py
+
+service Hot-restart service, dual-stack [::], as it is written
+  listening on ::
+  5 of 5 socket shapes overlap it
+  seed 0.0.0.0                        refused, EADDRINUSE
+  seed 0.0.0.0 + absent device        refused, EADDRINUSE
+  seed 0.0.0.0 + lo                   refused, EADDRINUSE
+  seed 0.0.0.0 + SO_REUSEADDR         refused, EADDRINUSE
+  seed 127.0.0.2                      refused, EADDRINUSE
+  seed 127.0.0.2 + absent device      refused, EADDRINUSE
+  seed [::] v6only                    refused, EADDRINUSE
+  seed [::] v6only + absent device    refused, EADDRINUSE
+  seed [::] v6only + SO_REUSEADDR     refused, EADDRINUSE
+  seed [::] dual-stack                refused, EADDRINUSE
+  seed [::] dual-stack + absent device refused, EADDRINUSE
+  seed [::1]                          refused, EADDRINUSE
+  seed [::2]                          refused, EADDRINUSE
+  seed [::ffff:127.0.0.2] mapped      refused, EADDRINUSE
+  seed [fe80::1%lo] link-local        refused, EADDRINUSE
+  seed [::1] v6only                   refused, EADDRINUSE

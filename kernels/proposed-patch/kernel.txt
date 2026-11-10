@@ -1,0 +1,9 @@
+name:        sashiko-variant
+base:        19a227903e65c7a9c179156485660a4e017575fe
+patches:     /home/agus/alt-test/patches/sashiko-variant.patch
+config:      config.fragment
+built:       2026-11-10T04:44:30+00:00
+host:        7.0.0-1014-gcp 8 cpus
+kernel:      7.4.0-rc1-virtme
+patch-sha256: 65187cb4c60336a49c5b65b18bcec28acd13a380d6aaaf717f4b40bd84a5be31  /home/agus/alt-test/patches/sashiko-variant.patch
+tested-as:   proposed-patch; built from sashiko-variant.patch, whose code is identical to patches/proposed-patch.patch (that file adds only the commit message)

@@ -1,0 +1,10 @@
+# Options the bind tests need, on top of what virtme-ng generates. VETH lets
+# the attack matrix put remote peers in their own network namespace.
+CONFIG_KASAN=y
+CONFIG_KASAN_GENERIC=y
+CONFIG_KASAN_INLINE=y
+CONFIG_IPV6=y
+CONFIG_NET_NS=y
+CONFIG_DUMMY=y
+CONFIG_RANDOMIZE_BASE=n
+CONFIG_VETH=y

@@ -1,0 +1,22 @@
+kernel:  7.0.0-1014-gcp
+phase:   reload
+started: 2026-11-08T21:55:04+00:00
+
+
+@binds[8000]: 1
+@binds[18000]: 1
+@binds[15432]: 1
+@binds[0]: 1
+@binds[43125]: 1
+@binds[5432]: 2
+@binds[18100]: 20
+@changed_code_ran[43125]: 1
+@changed_code_ran[18100]: 40
+
+@received[20201]: 2
+@received[22]: 12
+@received[65536]: 74
+@sent[20201]: 2
+@sent[22]: 10
+@sent[65536]: 71
+finished: 2026-11-08T21:55:22+00:00

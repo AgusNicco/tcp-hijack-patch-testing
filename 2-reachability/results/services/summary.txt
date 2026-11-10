@@ -1,0 +1,130 @@
+Starting the services
+
+                                          TCP packets  TCP packets  Socket         Times the
+Service                                      received         sent   binds  changed code ran
+----------------------------------------  -----------  -----------  ------  ----------------
+OpenSSH (host)                                    105           68       0                 0
+PostgreSQL (container)                            115           68       2                 0
+  Docker port proxy for PostgreSQL                  0            0       1                 0
+nginx (container)                                   6            3      16                31
+  Docker port proxy for nginx                       6            3       1                 0
+FastAPI (container)                                 5            3       1                 0
+  Docker port proxy for FastAPI                     5            3       1                 0
+nginx (host network)                                6            3      16                31
+HAProxy (host network)                              6            2       1                 1
+Hot-restart service (hand-built)                    5            4       4                 7
+Transparent proxy (hand-built)                      5            4       4                 7
+Clients (load generators, Firefox)                274          317       0                 0
+Bind to any free port (port 0)                      0            0       1                 0
+Sockets that already released their port            0            0       0                 0
+Other ports                                         9            7       1                 1
+
+
+Idle (60 s, services running, no load)
+
+                                          TCP packets  TCP packets  Socket         Times the
+Service                                      received         sent   binds  changed code ran
+----------------------------------------  -----------  -----------  ------  ----------------
+OpenSSH (host)                                    210          181       0                 0
+PostgreSQL (container)                              0            0       0                 0
+  Docker port proxy for PostgreSQL                  0            0       0                 0
+nginx (container)                                   0            0       0                 0
+  Docker port proxy for nginx                       0            0       0                 0
+FastAPI (container)                                 1            2       0                 0
+  Docker port proxy for FastAPI                     1            2       0                 0
+nginx (host network)                                0            0       0                 0
+HAProxy (host network)                              0            0       0                 0
+Hot-restart service (hand-built)                    0            0       0                 0
+Transparent proxy (hand-built)                      0            0       0                 0
+Clients (load generators, Firefox)                666          510       0                 0
+Bind to any free port (port 0)                      0            0       0                 0
+Sockets that already released their port            0            0       0                 0
+Other ports                                        25           22       0                 0
+
+
+Traffic (60 s, all services under load)
+
+                                          TCP packets  TCP packets  Socket         Times the
+Service                                      received         sent   binds  changed code ran
+----------------------------------------  -----------  -----------  ------  ----------------
+OpenSSH (host)                                  8,430        5,211       0                 0
+PostgreSQL (container)                        245,897      187,732       0                 0
+  Docker port proxy for PostgreSQL             76,594       59,767       0                 0
+nginx (container)                             237,388      151,839       0                 0
+  Docker port proxy for nginx                 237,462      151,835       0                 0
+FastAPI (container)                           175,656      102,397       0                 0
+  Docker port proxy for FastAPI               141,227       69,762       0                 0
+nginx (host network)                          635,841      456,205       0                 0
+HAProxy (host network)                        139,583       58,200       0                 0
+Hot-restart service (hand-built)              509,236      404,896       0                 0
+Transparent proxy (hand-built)              2,584,417    1,973,269       0           506,334
+Clients (load generators, Firefox)          4,478,154    4,969,115       0                 0
+Bind to any free port (port 0)                      0            0       0                 0
+Sockets that already released their port            0       22,079       0                 0
+Other ports                                        22           20       0                 0
+
+
+Browsing (120 s, Firefox on real websites; services idle)
+
+                                          TCP packets  TCP packets  Socket         Times the
+Service                                      received         sent   binds  changed code ran
+----------------------------------------  -----------  -----------  ------  ----------------
+OpenSSH (host)                                    101           85       0                 0
+PostgreSQL (container)                              0            0       0                 0
+  Docker port proxy for PostgreSQL                  0            0       0                 0
+nginx (container)                                   0            0       0                 0
+  Docker port proxy for nginx                       0            0       0                 0
+FastAPI (container)                                 7           14       0                 0
+  Docker port proxy for FastAPI                     7           14       0                 0
+nginx (host network)                                0            0       0                 0
+HAProxy (host network)                              0            0       0                 0
+Hot-restart service (hand-built)                    0            0       0                 0
+Transparent proxy (hand-built)                      0            0       0                 0
+Clients (load generators, Firefox)              8,069        5,626       0                 0
+Bind to any free port (port 0)                      0            0       0                 0
+Sockets that already released their port            0            2       0                 0
+Other ports                                        45           42       0                 0
+
+
+Reloading or restarting the services
+
+                                          TCP packets  TCP packets  Socket         Times the
+Service                                      received         sent   binds  changed code ran
+----------------------------------------  -----------  -----------  ------  ----------------
+OpenSSH (host)                                     12           10       0                 0
+PostgreSQL (container)                              0            0       2                 0
+  Docker port proxy for PostgreSQL                  0            0       1                 0
+nginx (container)                                   0            0       0                 0
+  Docker port proxy for nginx                       0            0       0                 0
+FastAPI (container)                                 0            0       1                 0
+  Docker port proxy for FastAPI                     0            0       1                 0
+nginx (host network)                                0            0       0                 0
+HAProxy (host network)                              0            0       0                 0
+Hot-restart service (hand-built)                    0            0      20                40
+Transparent proxy (hand-built)                      0            0       0                 0
+Clients (load generators, Firefox)                 74           71       0                 0
+Bind to any free port (port 0)                      0            0       1                 0
+Sockets that already released their port            0            0       0                 0
+Other ports                                         2            2       1                 1
+
+
+Stopping the services
+
+                                          TCP packets  TCP packets  Socket         Times the
+Service                                      received         sent   binds  changed code ran
+----------------------------------------  -----------  -----------  ------  ----------------
+OpenSSH (host)                                      4            4       0                 0
+PostgreSQL (container)                              0            0       0                 0
+  Docker port proxy for PostgreSQL                  0            0       0                 0
+nginx (container)                                   0            0       0                 0
+  Docker port proxy for nginx                       0            0       0                 0
+FastAPI (container)                                 0            0       0                 0
+  Docker port proxy for FastAPI                     0            0       0                 0
+nginx (host network)                                0            0       0                 0
+HAProxy (host network)                              0            0       0                 0
+Hot-restart service (hand-built)                    0            0       0                 0
+Transparent proxy (hand-built)                      0            0       0                 0
+Clients (load generators, Firefox)                 28           25       0                 0
+Bind to any free port (port 0)                      0            0       0                 0
+Sockets that already released their port            0            0       0                 0
+Other ports                                         0            0       0                 0

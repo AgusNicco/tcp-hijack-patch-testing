@@ -1,0 +1,17 @@
+kernel 7.4.0-rc1-virtme
+a service pinned to lo, one connection per port
+unattacked: 3/3 transfers complete
+  attempt axis=device control=EADDRINUSE seed=ok hijack=ok takeover=ECONNREFUSED
+  attempts 1
+  attempt axis=device control=EADDRINUSE seed=ok hijack=ok takeover=ECONNREFUSED
+  attempts 1
+  attempt axis=device control=EADDRINUSE seed=ok hijack=ok takeover=ECONNREFUSED
+  attempts 1
+attacked over the device axis: 0/3 transfers complete
+  attempt axis=v6only control=EADDRINUSE seed=ok hijack=ok takeover=ECONNREFUSED
+  attempts 1
+  attempt axis=v6only control=EADDRINUSE seed=ok hijack=ok takeover=ECONNREFUSED
+  attempts 1
+  attempt axis=v6only control=EADDRINUSE seed=ok hijack=ok takeover=ECONNREFUSED
+  attempts 1
+attacked over the v6only axis: 0/3 transfers complete

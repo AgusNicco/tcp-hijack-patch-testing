@@ -1,0 +1,39 @@
+set widetriples: 11943936 sequences
+  base         kernel 7.4.0-rc1-virtme, 798.0 s, codes {'-': 20264880, 'o': 46700784, 'u': 4697952}
+  proposed-patch kernel 7.4.0-rc1-virtme, 812.3 s, codes {'-': 20359296, 'o': 46417536, 'u': 4886784}
+  full-scan-alternative kernel 7.4.0-rc1-virtme, 811.0 s, codes {'-': 20359296, 'o': 46417536, 'u': 4886784}
+
+agree      11755104
+fixed      188832
+unchanged  0
+regressed  0
+other      0
+excluded   0
+
+fixed, bind() of socket 3: o- -> u-: 94416
+    sequence 8664
+      1. u1 v4 0.0.0.0 dev=- -                                      base=o-  proposed-patch=o-  full-scan-alternative=o-
+      2. u1 v6only :: dev=- reuseport                               base=o-  proposed-patch=o-  full-scan-alternative=o-
+      3. u1 v6 :: dev=- reuseport                                   base=o-  proposed-patch=u-  full-scan-alternative=u-
+    sequence 8666
+      1. u1 v4 0.0.0.0 dev=- -                                      base=o-  proposed-patch=o-  full-scan-alternative=o-
+      2. u1 v6only :: dev=- reuseport                               base=o-  proposed-patch=o-  full-scan-alternative=o-
+      3. u1 v6 :: dev=- reuseaddr reuseport                         base=o-  proposed-patch=u-  full-scan-alternative=u-
+    sequence 8668
+      1. u1 v4 0.0.0.0 dev=- -                                      base=o-  proposed-patch=o-  full-scan-alternative=o-
+      2. u1 v6only :: dev=- reuseport                               base=o-  proposed-patch=o-  full-scan-alternative=o-
+      3. u1 v6 :: dev=dum1 reuseport                                base=o-  proposed-patch=u-  full-scan-alternative=u-
+
+fixed, bind() of socket 3: oo -> u-: 94416
+    sequence 8665
+      1. u1 v4 0.0.0.0 dev=- -                                      base=o-  proposed-patch=o-  full-scan-alternative=o-
+      2. u1 v6only :: dev=- reuseport                               base=o-  proposed-patch=o-  full-scan-alternative=o-
+      3. u1 v6 :: dev=- reuseport listen                            base=oo  proposed-patch=u-  full-scan-alternative=u-
+    sequence 8667
+      1. u1 v4 0.0.0.0 dev=- -                                      base=o-  proposed-patch=o-  full-scan-alternative=o-
+      2. u1 v6only :: dev=- reuseport                               base=o-  proposed-patch=o-  full-scan-alternative=o-
+      3. u1 v6 :: dev=- reuseaddr reuseport listen                  base=oo  proposed-patch=u-  full-scan-alternative=u-
+    sequence 8669
+      1. u1 v4 0.0.0.0 dev=- -                                      base=o-  proposed-patch=o-  full-scan-alternative=o-
+      2. u1 v6only :: dev=- reuseport                               base=o-  proposed-patch=o-  full-scan-alternative=o-
+      3. u1 v6 :: dev=dum1 reuseport listen                         base=oo  proposed-patch=u-  full-scan-alternative=u-

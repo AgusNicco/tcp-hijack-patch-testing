@@ -1,0 +1,7 @@
+# For timing: as config.fragment, but without KASAN, which charges the cost of
+# freeing earlier objects to later allocations and so distorts bind timings.
+# CONFIG_KASAN is not set
+CONFIG_IPV6=y
+CONFIG_NET_NS=y
+CONFIG_DUMMY=y
+CONFIG_RANDOMIZE_BASE=n

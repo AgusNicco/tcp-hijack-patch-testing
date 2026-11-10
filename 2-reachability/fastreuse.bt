@@ -1,0 +1,66 @@
+/*
+ * Count, per TCP port, the packets received and sent, the bind() calls and
+ * the times the code the patch changes runs. $1 is a process name to count
+ * only that process, or "any".
+ *
+ * The patch changes sk_reuseport_match(), which is inlined into
+ * inet_csk_get_port() and inet_csk_update_fastreuse(). It compares the
+ * socket with the port's summary only when the socket has SO_REUSEPORT,
+ * the port is in FASTREUSEPORT_STRICT (2) and the summary has the same
+ * owner. inet_csk_update_fastreuse() runs after every successful bind() and
+ * listen(), and from __inet_inherit_port() for a connection accepted on
+ * another port than its own; the run is counted there, from the port's state
+ * on entry.
+ *
+ * Ports from 32768, the start of the ephemeral range, are counted together
+ * under 65536: they are the client side of connections.
+ *
+ * @differs counts the runs where the socket's family, IPV6_V6ONLY or address
+ * differs from the summary's. The bound device and SO_REUSEADDR are not
+ * recorded in the bucket of an unpatched kernel, so they are not compared.
+ */
+
+kprobe:tcp_v4_rcv, kprobe:tcp_v6_rcv
+/str($1) == "any" || comm == str($1)/
+{
+	$skb = (struct sk_buff *)arg0;
+	$th = (struct tcphdr *)($skb->head + $skb->transport_header);
+	$port = (($th->dest & 0xff) << 8) | ($th->dest >> 8);
+	@received[$port >= 32768 ? 65536 : $port] = count();
+}
+
+kprobe:__tcp_transmit_skb
+/str($1) == "any" || comm == str($1)/
+{
+	$port = ((struct sock *)arg0)->__sk_common.skc_num;
+	@sent[$port >= 32768 ? 65536 : $port] = count();
+}
+
+kprobe:inet_csk_get_port
+/str($1) == "any" || comm == str($1)/
+{
+	/* listen() calls it again with the socket already in TCP_LISTEN (10). */
+	if (((struct sock *)arg0)->__sk_common.skc_state != 10) {
+		@binds[arg1] = count();
+	}
+}
+
+kprobe:inet_csk_update_fastreuse
+/str($1) == "any" || comm == str($1)/
+{
+	$sk = (struct sock *)arg0;
+	$tb = (struct inet_bind_bucket *)arg1;
+	if ($sk->__sk_common.skc_reuseport && $tb->fastreuseport == 2 &&
+	    $sk->sk_reuseport_cb == 0 && $tb->fastuid.val == $sk->sk_uid.val) {
+		@changed_code_ran[$tb->port] = count();
+		$v6 = $sk->__sk_common.skc_v6_rcv_saddr.in6_u.u6_addr32;
+		$f6 = $tb->fast_v6_rcv_saddr.in6_u.u6_addr32;
+		if ($tb->fast_sk_family != $sk->__sk_common.skc_family ||
+		    $tb->fast_ipv6_only != $sk->__sk_common.skc_ipv6only ||
+		    $tb->fast_rcv_saddr != $sk->__sk_common.skc_rcv_saddr ||
+		    $f6[0] != $v6[0] || $f6[1] != $v6[1] ||
+		    $f6[2] != $v6[2] || $f6[3] != $v6[3]) {
+			@differs[$tb->port] = count();
+		}
+	}
+}

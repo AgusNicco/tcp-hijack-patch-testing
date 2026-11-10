@@ -1,0 +1,24 @@
+Test only: never skip the bind conflict check in inet_csk_get_port().
+
+Both bind caches (tb->fastreuse and tb->fastreuseport) are ignored, so
+every bind() and listen() to a named port takes the full check. The
+results of this kernel are the reference the other kernels are compared
+against. SK_FORCE_REUSE (TCP_REPAIR) still skips the check, as it is not
+a cache.
+
+---
+diff --git a/net/ipv4/inet_connection_sock.c b/net/ipv4/inet_connection_sock.c
+index e56beec43877..0fa7b6b72c98 100644
+--- a/net/ipv4/inet_connection_sock.c
++++ b/net/ipv4/inet_connection_sock.c
+@@ -544,8 +544,8 @@ int inet_csk_get_port(struct sock *sk, unsigned short snum)
+ 	if (!found_port) {
+ 		if (!hlist_empty(&tb->bhash2)) {
+ 			if (sk->sk_reuse == SK_FORCE_REUSE ||
+-			    (tb->fastreuse > 0 && reuse) ||
+-			    sk_reuseport_match(tb, sk))
++			    (false && ((tb->fastreuse > 0 && reuse) ||
++				       sk_reuseport_match(tb, sk))))
+ 				check_bind_conflict = false;
+ 		}
+ 

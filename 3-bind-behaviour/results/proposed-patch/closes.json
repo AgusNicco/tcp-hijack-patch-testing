@@ -1,0 +1,14 @@
+{
+ "set": "closes",
+ "sequences": 4741632,
+ "quads": null,
+ "seed": null,
+ "kernel": "7.4.0-rc1-virtme",
+ "seconds": 718.1,
+ "result_codes": {
+  "-": 13768020,
+  "c": 3976056,
+  "o": 17892252,
+  "u": 2296728
+ }
+}

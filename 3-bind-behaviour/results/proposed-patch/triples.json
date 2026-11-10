@@ -1,0 +1,13 @@
+{
+ "set": "triples",
+ "sequences": 2370816,
+ "quads": null,
+ "seed": null,
+ "kernel": "7.4.0-rc1-virtme",
+ "seconds": 594.0,
+ "result_codes": {
+  "-": 4321800,
+  "o": 8371944,
+  "u": 1531152
+ }
+}

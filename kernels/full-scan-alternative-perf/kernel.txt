@@ -1,0 +1,8 @@
+name:        full-scan-alternative-perf
+base:        19a227903e65c7a9c179156485660a4e017575fe
+patches:     /home/agus/tcp-bind-tests/patches/full-scan-alternative.patch
+config:      config-perf.fragment
+built:       2026-11-08T22:12:32+00:00
+host:        7.0.0-1014-gcp 8 cpus
+kernel:      7.4.0-rc1-virtme
+patch-sha256: 242aa1322b4537ebc72d31ce1f151ead6a50477e861f664326fb548fc2e0b766  /home/agus/tcp-bind-tests/patches/full-scan-alternative.patch

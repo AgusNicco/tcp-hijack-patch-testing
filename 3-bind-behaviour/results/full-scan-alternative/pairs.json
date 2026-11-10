@@ -1,0 +1,13 @@
+{
+ "set": "pairs",
+ "sequences": 112896,
+ "quads": null,
+ "seed": null,
+ "kernel": "7.4.0-rc1-virtme",
+ "seconds": 60.6,
+ "result_codes": {
+  "-": 134162,
+  "o": 274890,
+  "u": 42532
+ }
+}

@@ -1,0 +1,13 @@
+{
+ "set": "widetriples",
+ "sequences": 11943936,
+ "quads": null,
+ "seed": null,
+ "kernel": "7.4.0-rc1-virtme",
+ "seconds": 798.0,
+ "result_codes": {
+  "-": 20264880,
+  "o": 46700784,
+  "u": 4697952
+ }
+}

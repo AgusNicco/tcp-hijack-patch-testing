@@ -1,0 +1,21 @@
+kernel:  7.0.0-1014-gcp
+phase:   idle
+started: 2026-11-08T21:50:44+00:00
+
+
+
+
+
+@received[18000]: 1
+@received[8000]: 1
+@received[20202]: 11
+@received[20201]: 14
+@received[22]: 210
+@received[65536]: 666
+@sent[8000]: 2
+@sent[18000]: 2
+@sent[20202]: 10
+@sent[20201]: 12
+@sent[22]: 181
+@sent[65536]: 510
+finished: 2026-11-08T21:51:50+00:00

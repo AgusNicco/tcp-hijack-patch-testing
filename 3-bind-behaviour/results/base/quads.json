@@ -1,0 +1,13 @@
+{
+ "set": "quads",
+ "sequences": 200000,
+ "quads": 200000,
+ "seed": 1,
+ "kernel": "7.4.0-rc1-virtme",
+ "seconds": 188.5,
+ "result_codes": {
+  "-": 551613,
+  "o": 745494,
+  "u": 302893
+ }
+}

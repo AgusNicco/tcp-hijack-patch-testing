@@ -1,0 +1,158 @@
+Services already running, as configured; one dual-stack hijacking socket
+Each connection column: of 50 connections a test client made to the service, answered by the service / answered by the attacker / requests the attacker read in full.
+
+Service                  Kernel             Listening on  Attacker's bind            Connections over IPv4  Connections over IPv6
+-----------------------  -----------------  ------------  -------------------------  ---------------------  ---------------------
+nginx, upstream default  Current kernel     0.0.0.0       succeeded                  50 / 0 / 0             0 / 50 / 50
+nginx, upstream default  With the patch     0.0.0.0       EADDRINUSE                 50 / 0 / 0             0 / 0 / 0
+nginx, upstream default  Full check always  0.0.0.0       EADDRINUSE                 50 / 0 / 0             0 / 0 / 0
+
+nginx, both stacks       Current kernel     0.0.0.0,::    seed refused (EADDRINUSE)  50 / 0 / 0             50 / 0 / 0
+nginx, both stacks       With the patch     0.0.0.0,::    seed refused (EADDRINUSE)  50 / 0 / 0             50 / 0 / 0
+nginx, both stacks       Full check always  0.0.0.0,::    seed refused (EADDRINUSE)  50 / 0 / 0             50 / 0 / 0
+
+HAProxy, 127.0.0.1       Current kernel     127.0.0.1     succeeded                  50 / 0 / 0             0 / 50 / 50
+HAProxy, 127.0.0.1       With the patch     127.0.0.1     EADDRINUSE                 50 / 0 / 0             0 / 0 / 0
+HAProxy, 127.0.0.1       Full check always  127.0.0.1     EADDRINUSE                 50 / 0 / 0             0 / 0 / 0
+
+uvicorn, as shipped      Current kernel     127.0.0.1     succeeded                  50 / 0 / 0             0 / 50 / 50
+uvicorn, as shipped      With the patch     127.0.0.1     EADDRINUSE                 50 / 0 / 0             0 / 0 / 0
+uvicorn, as shipped      Full check always  127.0.0.1     EADDRINUSE                 50 / 0 / 0             0 / 0 / 0
+
+uvicorn --host 0.0.0.0   Current kernel     0.0.0.0       succeeded                  50 / 0 / 0             0 / 50 / 50
+uvicorn --host 0.0.0.0   With the patch     0.0.0.0       EADDRINUSE                 50 / 0 / 0             0 / 0 / 0
+uvicorn --host 0.0.0.0   Full check always  0.0.0.0       EADDRINUSE                 50 / 0 / 0             0 / 0 / 0
+
+OpenSSH, as shipped      Current kernel     0.0.0.0,::    seed refused (EADDRINUSE)  50 / 0 / 0             50 / 0 / 0
+OpenSSH, as shipped      With the patch     0.0.0.0,::    seed refused (EADDRINUSE)  50 / 0 / 0             50 / 0 / 0
+OpenSSH, as shipped      Full check always  0.0.0.0,::    seed refused (EADDRINUSE)  50 / 0 / 0             50 / 0 / 0
+
+OpenSSH, IPv4 only       Current kernel     0.0.0.0       succeeded                  50 / 0 / 0             0 / 50 / 50
+OpenSSH, IPv4 only       With the patch     0.0.0.0       EADDRINUSE                 50 / 0 / 0             0 / 0 / 0
+OpenSSH, IPv4 only       Full check always  0.0.0.0       EADDRINUSE                 50 / 0 / 0             0 / 0 / 0
+
+PostgreSQL, as shipped   Current kernel     127.0.0.1     succeeded                  50 / 0 / 0             0 / 50 / 50
+PostgreSQL, as shipped   With the patch     127.0.0.1     EADDRINUSE                 50 / 0 / 0             0 / 0 / 0
+PostgreSQL, as shipped   Full check always  127.0.0.1     EADDRINUSE                 50 / 0 / 0             0 / 0 / 0
+
+PostgreSQL, 0.0.0.0      Current kernel     0.0.0.0       succeeded                  50 / 0 / 0             0 / 50 / 50
+PostgreSQL, 0.0.0.0      With the patch     0.0.0.0       EADDRINUSE                 50 / 0 / 0             0 / 0 / 0
+PostgreSQL, 0.0.0.0      Full check always  0.0.0.0       EADDRINUSE                 50 / 0 / 0             0 / 0 / 0
+
+PostgreSQL, '*'          Current kernel     0.0.0.0,::    seed refused (EADDRINUSE)  50 / 0 / 0             50 / 0 / 0
+PostgreSQL, '*'          With the patch     0.0.0.0,::    seed refused (EADDRINUSE)  50 / 0 / 0             50 / 0 / 0
+PostgreSQL, '*'          Full check always  0.0.0.0,::    seed refused (EADDRINUSE)  50 / 0 / 0             50 / 0 / 0
+
+Hot-restart service      Current kernel     ::            seed refused (EADDRINUSE)  50 / 0 / 0             50 / 0 / 0
+Hot-restart service      With the patch     ::            seed refused (EADDRINUSE)  50 / 0 / 0             50 / 0 / 0
+Hot-restart service      Full check always  ::            seed refused (EADDRINUSE)  50 / 0 / 0             50 / 0 / 0
+
+
+Services already running, as configured; one hijacking socket per CPU, bound to the clients' interface, with SO_INCOMING_CPU
+Each connection column: of 50 connections a test client made to the service, answered by the service / answered by the attacker / requests the attacker read in full.
+
+Service                  Kernel             Listening on  Attacker's bind            Connections over IPv4  Connections over IPv6
+-----------------------  -----------------  ------------  -------------------------  ---------------------  ---------------------
+nginx, upstream default  Current kernel     0.0.0.0       succeeded                  0 / 50 / 50            0 / 50 / 50
+nginx, upstream default  With the patch     0.0.0.0       EADDRINUSE                 50 / 0 / 0             0 / 0 / 0
+nginx, upstream default  Full check always  0.0.0.0       EADDRINUSE                 50 / 0 / 0             0 / 0 / 0
+
+nginx, both stacks       Current kernel     0.0.0.0,::    seed refused (EADDRINUSE)  50 / 0 / 0             50 / 0 / 0
+nginx, both stacks       With the patch     0.0.0.0,::    seed refused (EADDRINUSE)  50 / 0 / 0             50 / 0 / 0
+nginx, both stacks       Full check always  0.0.0.0,::    seed refused (EADDRINUSE)  50 / 0 / 0             50 / 0 / 0
+
+HAProxy, 127.0.0.1       Current kernel     127.0.0.1     succeeded                  50 / 0 / 0             0 / 50 / 50
+HAProxy, 127.0.0.1       With the patch     127.0.0.1     EADDRINUSE                 50 / 0 / 0             0 / 0 / 0
+HAProxy, 127.0.0.1       Full check always  127.0.0.1     EADDRINUSE                 50 / 0 / 0             0 / 0 / 0
+
+uvicorn, as shipped      Current kernel     127.0.0.1     succeeded                  50 / 0 / 0             0 / 50 / 50
+uvicorn, as shipped      With the patch     127.0.0.1     EADDRINUSE                 50 / 0 / 0             0 / 0 / 0
+uvicorn, as shipped      Full check always  127.0.0.1     EADDRINUSE                 50 / 0 / 0             0 / 0 / 0
+
+uvicorn --host 0.0.0.0   Current kernel     0.0.0.0       succeeded                  0 / 50 / 50            0 / 50 / 50
+uvicorn --host 0.0.0.0   With the patch     0.0.0.0       EADDRINUSE                 50 / 0 / 0             0 / 0 / 0
+uvicorn --host 0.0.0.0   Full check always  0.0.0.0       EADDRINUSE                 50 / 0 / 0             0 / 0 / 0
+
+OpenSSH, as shipped      Current kernel     0.0.0.0,::    seed refused (EADDRINUSE)  50 / 0 / 0             50 / 0 / 0
+OpenSSH, as shipped      With the patch     0.0.0.0,::    seed refused (EADDRINUSE)  50 / 0 / 0             50 / 0 / 0
+OpenSSH, as shipped      Full check always  0.0.0.0,::    seed refused (EADDRINUSE)  50 / 0 / 0             50 / 0 / 0
+
+OpenSSH, IPv4 only       Current kernel     0.0.0.0       succeeded                  0 / 50 / 50            0 / 50 / 50
+OpenSSH, IPv4 only       With the patch     0.0.0.0       EADDRINUSE                 50 / 0 / 0             0 / 0 / 0
+OpenSSH, IPv4 only       Full check always  0.0.0.0       EADDRINUSE                 50 / 0 / 0             0 / 0 / 0
+
+PostgreSQL, as shipped   Current kernel     127.0.0.1     succeeded                  50 / 0 / 0             0 / 50 / 50
+PostgreSQL, as shipped   With the patch     127.0.0.1     EADDRINUSE                 50 / 0 / 0             0 / 0 / 0
+PostgreSQL, as shipped   Full check always  127.0.0.1     EADDRINUSE                 50 / 0 / 0             0 / 0 / 0
+
+PostgreSQL, 0.0.0.0      Current kernel     0.0.0.0       succeeded                  0 / 50 / 50            0 / 50 / 50
+PostgreSQL, 0.0.0.0      With the patch     0.0.0.0       EADDRINUSE                 50 / 0 / 0             0 / 0 / 0
+PostgreSQL, 0.0.0.0      Full check always  0.0.0.0       EADDRINUSE                 50 / 0 / 0             0 / 0 / 0
+
+PostgreSQL, '*'          Current kernel     0.0.0.0,::    seed refused (EADDRINUSE)  50 / 0 / 0             50 / 0 / 0
+PostgreSQL, '*'          With the patch     0.0.0.0,::    seed refused (EADDRINUSE)  50 / 0 / 0             50 / 0 / 0
+PostgreSQL, '*'          Full check always  0.0.0.0,::    seed refused (EADDRINUSE)  50 / 0 / 0             50 / 0 / 0
+
+Hot-restart service      Current kernel     ::            seed refused (EADDRINUSE)  50 / 0 / 0             50 / 0 / 0
+Hot-restart service      With the patch     ::            seed refused (EADDRINUSE)  50 / 0 / 0             50 / 0 / 0
+Hot-restart service      Full check always  ::            seed refused (EADDRINUSE)  50 / 0 / 0             50 / 0 / 0
+
+
+Pinned to an interface; clients connect to the address the service itself holds
+Each connection column: of 50 connections a test client made to the service, answered by the service / answered by the attacker / requests the attacker read in full.
+
+Service                  Kernel             Listening on  Attacker's bind  Connections over IPv4  Connections over IPv6
+-----------------------  -----------------  ------------  ---------------  ---------------------  ---------------------
+nginx, upstream default  Current kernel     0.0.0.0       succeeded        0 / 50 / 50            -
+nginx, upstream default  With the patch     0.0.0.0       EADDRINUSE       50 / 0 / 0             -
+nginx, upstream default  Full check always  0.0.0.0       EADDRINUSE       50 / 0 / 0             -
+
+nginx, both stacks       Current kernel     0.0.0.0,::    succeeded        0 / 50 / 50            -
+nginx, both stacks       With the patch     0.0.0.0,::    EADDRINUSE       50 / 0 / 0             -
+nginx, both stacks       Full check always  0.0.0.0,::    EADDRINUSE       50 / 0 / 0             -
+
+HAProxy, 127.0.0.1       Current kernel     127.0.0.1     succeeded        0 / 50 / 50            -
+HAProxy, 127.0.0.1       With the patch     127.0.0.1     EADDRINUSE       50 / 0 / 0             -
+HAProxy, 127.0.0.1       Full check always  127.0.0.1     EADDRINUSE       50 / 0 / 0             -
+
+uvicorn, as shipped      Current kernel     127.0.0.1     succeeded        0 / 50 / 50            -
+uvicorn, as shipped      With the patch     127.0.0.1     EADDRINUSE       50 / 0 / 0             -
+uvicorn, as shipped      Full check always  127.0.0.1     EADDRINUSE       50 / 0 / 0             -
+
+uvicorn --host 0.0.0.0   Current kernel     0.0.0.0       succeeded        0 / 50 / 50            -
+uvicorn --host 0.0.0.0   With the patch     0.0.0.0       EADDRINUSE       50 / 0 / 0             -
+uvicorn --host 0.0.0.0   Full check always  0.0.0.0       EADDRINUSE       50 / 0 / 0             -
+
+OpenSSH, as shipped      Current kernel     0.0.0.0,::    succeeded        0 / 50 / 50            -
+OpenSSH, as shipped      With the patch     0.0.0.0,::    EADDRINUSE       50 / 0 / 0             -
+OpenSSH, as shipped      Full check always  0.0.0.0,::    EADDRINUSE       50 / 0 / 0             -
+
+OpenSSH, IPv4 only       Current kernel     0.0.0.0       succeeded        0 / 50 / 50            -
+OpenSSH, IPv4 only       With the patch     0.0.0.0       EADDRINUSE       50 / 0 / 0             -
+OpenSSH, IPv4 only       Full check always  0.0.0.0       EADDRINUSE       50 / 0 / 0             -
+
+PostgreSQL, as shipped   Current kernel     127.0.0.1     succeeded        0 / 50 / 50            -
+PostgreSQL, as shipped   With the patch     127.0.0.1     EADDRINUSE       50 / 0 / 0             -
+PostgreSQL, as shipped   Full check always  127.0.0.1     EADDRINUSE       50 / 0 / 0             -
+
+PostgreSQL, 0.0.0.0      Current kernel     0.0.0.0       succeeded        0 / 50 / 50            -
+PostgreSQL, 0.0.0.0      With the patch     0.0.0.0       EADDRINUSE       50 / 0 / 0             -
+PostgreSQL, 0.0.0.0      Full check always  0.0.0.0       EADDRINUSE       50 / 0 / 0             -
+
+PostgreSQL, '*'          Current kernel     0.0.0.0,::    succeeded        0 / 50 / 50            -
+PostgreSQL, '*'          With the patch     0.0.0.0,::    EADDRINUSE       50 / 0 / 0             -
+PostgreSQL, '*'          Full check always  0.0.0.0,::    EADDRINUSE       50 / 0 / 0             -
+
+Hot-restart service      Current kernel     ::            succeeded        0 / 50 / 50            -
+Hot-restart service      With the patch     ::            EADDRINUSE       50 / 0 / 0             -
+Hot-restart service      Full check always  ::            EADDRINUSE       50 / 0 / 0             -
+
+
+The attacker holds the service's IPv6 address before it starts, then attacks as in the second table
+Each connection column: of 50 connections a test client made to the service, answered by the service / answered by the attacker / requests the attacker read in full.
+
+Service          Kernel             Listening on  Attacker's bind  Connections over IPv4  Connections over IPv6
+---------------  -----------------  ------------  ---------------  ---------------------  ---------------------
+PostgreSQL, '*'  Current kernel     0.0.0.0       succeeded        0 / 50 / 50            0 / 50 / 50
+PostgreSQL, '*'  With the patch     0.0.0.0       EADDRINUSE       50 / 0 / 0             0 / 0 / 0
+PostgreSQL, '*'  Full check always  0.0.0.0       EADDRINUSE       50 / 0 / 0             0 / 0 / 0

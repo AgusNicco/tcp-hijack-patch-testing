@@ -1,0 +1,16 @@
+8d2f9fa0a61228914afcfbd29b5ef9bb5d8d731be2058d74682fa43e2ada9d6c
+6161f09235c35a90a2c8f09cbbef56eb9967fe395cb1ad1096553e6275d628cb
+086fc51ee202ad3acb8f2a1714a46fa7f6575c7e6ad775979ae656eb3078ec11
+9296eead265ef87f8ccd3d93dc110cbead1a68212576fc887d78c08394e84e01
+d246527381a81430eb308b153660895ce04163bbb4e91e3b27744aae53bbdf9b
+dropping old tables...
+NOTICE:  table "pgbench_accounts" does not exist, skipping
+NOTICE:  table "pgbench_branches" does not exist, skipping
+NOTICE:  table "pgbench_history" does not exist, skipping
+NOTICE:  table "pgbench_tellers" does not exist, skipping
+creating tables...
+generating data (client-side)...
+100000 of 100000 tuples (100%) done (elapsed 0.02 s, remaining 0.00 s)
+vacuuming...
+creating primary keys...
+done in 0.15 s (drop tables 0.00 s, create tables 0.01 s, client-side generate 0.05 s, vacuum 0.04 s, primary keys 0.05 s).

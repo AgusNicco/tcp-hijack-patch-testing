@@ -1,0 +1,5 @@
+kernels/*/bzImage
+4-performance/bin/
+__pycache__/
+/reproducer
+.DS_Store

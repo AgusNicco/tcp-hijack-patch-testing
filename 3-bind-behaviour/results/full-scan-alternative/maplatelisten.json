@@ -1,0 +1,14 @@
+{
+ "set": "maplatelisten",
+ "sequences": 3538944,
+ "quads": null,
+ "seed": null,
+ "kernel": "7.4.0-rc1-virtme",
+ "seconds": 750.7,
+ "result_codes": {
+  "-": 9042756,
+  "L": 2974464,
+  "o": 13977396,
+  "u": 2316936
+ }
+}

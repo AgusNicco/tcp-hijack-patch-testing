@@ -1,0 +1,14 @@
+{
+ "set": "timewait",
+ "sequences": 677376,
+ "quads": null,
+ "seed": null,
+ "kernel": "7.4.0-rc1-virtme",
+ "seconds": 1477.7,
+ "result_codes": {
+  "-": 1591536,
+  "o": 1321776,
+  "t": 677376,
+  "u": 473568
+ }
+}

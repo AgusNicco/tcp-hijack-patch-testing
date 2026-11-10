@@ -1,0 +1,45 @@
+set closes: 4741632 sequences
+  base         kernel 7.4.0-rc1-virtme, 721.8 s, codes {'-': 13715826, 'c': 3976056, 'o': 18048834, 'u': 2192340}
+  proposed-patch kernel 7.4.0-rc1-virtme, 718.1 s, codes {'-': 13768020, 'c': 3976056, 'o': 17892252, 'u': 2296728}
+  full-scan-alternative kernel 7.4.0-rc1-virtme, 717.4 s, codes {'-': 13768020, 'c': 3976056, 'o': 17892252, 'u': 2296728}
+
+agree      4637244
+fixed      104388
+unchanged  0
+regressed  0
+other      0
+excluded   0
+
+fixed, bind() of socket 4: o- -> u-: 52194
+    sequence 10129
+      1. u1 v4 0.0.0.0 dev=- -                                      base=o-  proposed-patch=o-  full-scan-alternative=o-
+      2. u1 v6only :: dev=- reuseport                               base=o-  proposed-patch=o-  full-scan-alternative=o-
+      3. close socket 2                                             base=c-  proposed-patch=c-  full-scan-alternative=c-
+      4. u1 v6 :: dev=- reuseport                                   base=o-  proposed-patch=u-  full-scan-alternative=u-
+    sequence 10133
+      1. u1 v4 0.0.0.0 dev=- -                                      base=o-  proposed-patch=o-  full-scan-alternative=o-
+      2. u1 v6only :: dev=- reuseport                               base=o-  proposed-patch=o-  full-scan-alternative=o-
+      3. close socket 2                                             base=c-  proposed-patch=c-  full-scan-alternative=c-
+      4. u1 v6 :: dev=- reuseaddr reuseport                         base=o-  proposed-patch=u-  full-scan-alternative=u-
+    sequence 10137
+      1. u1 v4 0.0.0.0 dev=- -                                      base=o-  proposed-patch=o-  full-scan-alternative=o-
+      2. u1 v6only :: dev=- reuseport                               base=o-  proposed-patch=o-  full-scan-alternative=o-
+      3. close socket 2                                             base=c-  proposed-patch=c-  full-scan-alternative=c-
+      4. u1 v6 :: dev=dum1 reuseport                                base=o-  proposed-patch=u-  full-scan-alternative=u-
+
+fixed, bind() of socket 4: oo -> u-: 52194
+    sequence 10131
+      1. u1 v4 0.0.0.0 dev=- -                                      base=o-  proposed-patch=o-  full-scan-alternative=o-
+      2. u1 v6only :: dev=- reuseport                               base=o-  proposed-patch=o-  full-scan-alternative=o-
+      3. close socket 2                                             base=c-  proposed-patch=c-  full-scan-alternative=c-
+      4. u1 v6 :: dev=- reuseport listen                            base=oo  proposed-patch=u-  full-scan-alternative=u-
+    sequence 10135
+      1. u1 v4 0.0.0.0 dev=- -                                      base=o-  proposed-patch=o-  full-scan-alternative=o-
+      2. u1 v6only :: dev=- reuseport                               base=o-  proposed-patch=o-  full-scan-alternative=o-
+      3. close socket 2                                             base=c-  proposed-patch=c-  full-scan-alternative=c-
+      4. u1 v6 :: dev=- reuseaddr reuseport listen                  base=oo  proposed-patch=u-  full-scan-alternative=u-
+    sequence 10139
+      1. u1 v4 0.0.0.0 dev=- -                                      base=o-  proposed-patch=o-  full-scan-alternative=o-
+      2. u1 v6only :: dev=- reuseport                               base=o-  proposed-patch=o-  full-scan-alternative=o-
+      3. close socket 2                                             base=c-  proposed-patch=c-  full-scan-alternative=c-
+      4. u1 v6 :: dev=dum1 reuseport listen                         base=oo  proposed-patch=u-  full-scan-alternative=u-

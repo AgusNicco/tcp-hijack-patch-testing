@@ -1,0 +1,64 @@
+Median time of the bind() and listen() calls, in milliseconds,
+over 5 runs.
+
+Identical SO_REUSEPORT listeners on an empty port
+
+          Current  With the  Full check  Current kernel,  With the patch,
+Sockets    kernel     patch      always  no 947ccedf683e  no 947ccedf683e
+--------  -------  --------  ----------  ---------------  ---------------
+     256     0.14      0.18        0.59             0.15             0.15
+   1,024     0.71      0.65        7.95             0.71             0.64
+   4,096     2.35      2.56      154.66             2.59             2.48
+  16,384     9.68      9.89    5,820.62            10.03             9.81
+
+
+Identical SO_REUSEPORT listeners, after a socket without SO_REUSEPORT
+
+          Current  With the  Full check  Current kernel,  With the patch,
+Sockets    kernel     patch      always  no 947ccedf683e  no 947ccedf683e
+--------  -------  --------  ----------  ---------------  ---------------
+     256     0.13      0.15        0.58             0.13             0.14
+   1,024     0.63      0.69        8.07             0.60             0.59
+   4,096     2.63      2.83      154.32             2.44             2.54
+  16,384     9.80      9.86    5,874.11             9.70             9.96
+
+
+Listeners on specific addresses, after an SO_REUSEPORT wildcard listener
+
+          Current  With the  Full check  Current kernel,  With the patch,
+Sockets    kernel     patch      always  no 947ccedf683e  no 947ccedf683e
+--------  -------  --------  ----------  ---------------  ---------------
+     256     0.23      0.24        0.27             0.28             0.26
+   1,024     1.02      1.08        1.19             1.05             1.07
+   4,096     4.40      4.36        5.07             4.50             4.60
+  16,384    25.00     28.95       25.54            31.86            31.15
+
+
+Wildcard listeners bound to two devices in turn
+
+          Current  With the  Full check  Current kernel,  With the patch,
+Sockets    kernel     patch      always  no 947ccedf683e  no 947ccedf683e
+--------  -------  --------  ----------  ---------------  ---------------
+     256     0.12      0.32        0.47             0.12             0.31
+   1,024     0.56      3.98        7.07             0.56             3.96
+   4,096     2.26     69.64      135.82             2.40            69.90
+  16,384     9.33  2,791.25    5,550.72             9.49         2,840.40
+
+
+Listeners alternating between 0.0.0.0 and specific addresses
+
+          Current  With the  Full check  Current kernel,  With the patch,
+Sockets    kernel     patch      always  no 947ccedf683e  no 947ccedf683e
+--------  -------  --------  ----------  ---------------  ---------------
+     256     0.20      0.22        0.52             0.19             0.21
+   1,024     0.82      0.84        6.86             0.81             0.86
+   4,096     3.40      3.36      131.00             3.45             3.70
+  16,384    15.26     15.85    4,422.48            15.99            15.62
+
+
+Bacik's 2017 reproducer: 64 threads, 16,384 listeners
+
+          Current  With the  Full check  Current kernel,  With the patch,
+Sockets    kernel     patch      always  no 947ccedf683e  no 947ccedf683e
+--------  -------  --------  ----------  ---------------  ---------------
+  16,384  4,531.88  4,647.94   10,328.09         4,579.55         4,615.97

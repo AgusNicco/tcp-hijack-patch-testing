@@ -1,0 +1,13 @@
+{
+ "set": "maptriples",
+ "sequences": 3538944,
+ "quads": null,
+ "seed": null,
+ "kernel": "7.4.0-rc1-virtme",
+ "seconds": 731.4,
+ "result_codes": {
+  "-": 6365022,
+  "o": 12755430,
+  "u": 2113212
+ }
+}

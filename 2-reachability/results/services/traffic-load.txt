@@ -1,0 +1,39 @@
+127.0.0.1:18080             94657 requests      0 errors
+127.0.0.1:18081            112164 requests      0 errors
+[::1]:18081                 69332 requests      0 errors
+127.0.0.1:18443             29104 requests      0 errors
+127.0.0.1:18100             50406 requests      0 errors
+[::1]:18100                 51163 requests      0 errors
+pgbench (16.15 (Debian 16.15-1.pgdg13+2))
+starting vacuum...end.
+transaction type: <builtin: TPC-B (sort of)>
+scaling factor: 1
+query mode: simple
+number of clients: 8
+number of threads: 4
+maximum number of tries: 1
+duration: 60 s
+number of transactions actually processed: 11271
+number of failed transactions: 0 (0.000%)
+latency average = 42.602 ms
+average connection time = 6.444 ms
+tps = 187.785408 (including reconnection times)
+pgbench (16.15 (Debian 16.15-1.pgdg13+2))
+starting vacuum...end.
+transaction type: <builtin: TPC-B (sort of)>
+scaling factor: 1
+query mode: simple
+number of clients: 4
+number of threads: 2
+maximum number of tries: 1
+duration: 60 s
+number of transactions actually processed: 4489
+number of failed transactions: 0 (0.000%)
+latency average = 53.466 ms
+average connection time = 13.903 ms
+tps = 74.814516 (including reconnection times)
+ssh-keyscan handshakes: 183
+10.201.0.9:18200           126501 requests      0 errors
+10.201.0.10:18200          126657 requests      0 errors
+10.201.0.11:18200          126564 requests      0 errors
+10.201.0.12:18200          126613 requests      0 errors

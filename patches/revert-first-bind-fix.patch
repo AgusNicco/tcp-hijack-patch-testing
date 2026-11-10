@@ -1,0 +1,23 @@
+Test only: revert 947ccedf683e ("tcp: Fix fastreuse cache initialization on
+first bind").
+
+Kernels from v6.8 without that commit never take the first-bind branch of
+inet_csk_update_fastreuse(), so every SO_REUSEPORT port starts in
+FASTREUSEPORT_STRICT instead of FASTREUSEPORT_ANY. Applied to base, with or
+without the proposed patch, it stands in for those kernels.
+
+---
+diff --git a/net/ipv4/inet_connection_sock.c b/net/ipv4/inet_connection_sock.c
+index 93b306d91b6d..8151c638a24c 100644
+--- a/net/ipv4/inet_connection_sock.c
++++ b/net/ipv4/inet_connection_sock.c
+@@ -446,8 +446,7 @@ void inet_csk_update_fastreuse(const struct sock *sk,
+ {
+ 	bool reuse = sk->sk_reuse && sk->sk_state != TCP_LISTEN;
+ 
+-	if (hlist_is_singular_node(&tb2->bhash_node, &tb->bhash2) &&
+-	    hlist_empty(&tb2->owners)) {
++	if (hlist_empty(&tb->bhash2)) {
+ 		tb->fastreuse = reuse;
+ 		if (sk->sk_reuseport) {
+ 			tb->fastreuseport = FASTREUSEPORT_ANY;
